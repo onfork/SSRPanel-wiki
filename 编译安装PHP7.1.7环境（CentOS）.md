@@ -1,0 +1,171 @@
+## 0.安装一大堆必备的东西
+```
+yum -y install libevent-devel
+yum -y install gcc g++ gcc+ gcc-c++
+yum -y install git autoconf
+yum -y install pcre-devel
+yum -y install openssl openssl-devel
+yum -y install pcre-devel openssl openssl-devel
+yum -y install vim pv rsync
+yum -y install  libxml2 libxml2-devel
+yum -y install libxml2-devel openssl-devel libcurl-devel libjpeg-devel libpng-devel libicu-devel openldap-devel
+yum -y install curl gd2 gd libevent-devel
+yum -y install freetype-devel
+yum -y install libmcrypt
+yum -y install libXpm-devel
+yum -y install libc-client-devel
+yum -y install unixODBC-devel
+yum -y install aspell-devel
+yum -y install readline-devel
+yum -y install net-snmp-devel
+yum -y install libxslt-devel
+yum -y install enchant-devel
+yum -y install bzip2 bzip2-devel
+yum -y install gmp-devel
+yum -y install readline-devel
+yum -y install net-snmp-devel
+yum -y install libxslt-devel
+```
+
+#### 1.下载并解压PHP7.1.7
+````
+wget http://am1.php.net/get/php-7.1.7.tar.gz/from/this/mirror
+mv mirror.1 php-7.1.7.tar.gz
+tar zxvf php-7.1.7.tar.gz
+cd php-7.1.7
+````
+
+#### 2.配置PHP7.1.7
+```
+./configure \
+--prefix=/usr/local/php7 \
+--enable-fpm \
+--with-fpm-user=apache  \
+--with-fpm-group=apache \
+--enable-inline-optimization \
+--disable-debug \
+--disable-rpath \
+--enable-shared  \
+--enable-soap \
+--with-libxml-dir \
+--with-xmlrpc \
+--with-openssl \
+--with-mcrypt \
+--with-mhash \
+--enable-pcntl \
+--with-pcre-regex \
+--with-sqlite3 \
+--with-zlib \
+--enable-bcmath \
+--with-iconv \
+--with-bz2 \
+--enable-calendar \
+--with-curl \
+--with-cdb \
+--enable-dom \
+--enable-exif \
+--enable-fileinfo \
+--enable-filter \
+--with-pcre-dir \
+--enable-ftp \
+--with-gd \
+--with-openssl-dir \
+--with-jpeg-dir \
+--with-png-dir \
+--with-zlib-dir  \
+--with-freetype-dir \
+--enable-gd-native-ttf \
+--enable-gd-jis-conv \
+--with-gettext \
+--with-gmp \
+--with-mhash \
+--enable-json \
+--enable-mbstring \
+--enable-mbregex \
+--enable-mbregex-backtrack \
+--with-libmbfl \
+--with-onig \
+--enable-pdo \
+--with-mysqli=mysqlnd \
+--with-pdo-mysql=mysqlnd \
+--with-zlib-dir \
+--with-pdo-sqlite \
+--with-readline \
+--enable-session \
+--enable-shmop \
+--enable-simplexml \
+--enable-sockets  \
+--enable-sysvmsg \
+--enable-sysvsem \
+--enable-sysvshm \
+--enable-wddx \
+--with-libxml-dir \
+--enable-xml \
+--with-xsl \
+--enable-zip \
+--with-snmp \
+--enable-mysqlnd-compression-support \
+--with-pear \
+--enable-opcache
+```
+
+#### 3.编译
+```
+make && make install
+```
+
+#### 4.出错
+```
+configure: error: mcrypt.h not found. Please reinstall libmcrypt.
+代码如下:
+
+wget ftp://mcrypt.hellug.gr/pub/crypto/mcrypt/libmcrypt/libmcrypt-2.5.7.tar.gz
+tar zxf libmcrypt-2.5.7.tar.gz
+cd libmcrypt-2.5.7
+./configure
+make && make install
+
+再重新执行第2步，然后再执行第3步
+```
+
+#### 5.编辑php-fpm配置（用于启动PHP）
+```
+touch /usr/local/php7/etc/php-fpm.conf
+vim /usr/local/php7/etc/php-fpm.conf
+
+将下面内容黏贴进去并保存：
+[global]
+pid = /usr/local/php7/var/run/php-fpm.pid
+error_log = /usr/local/php7/var/log/php-fpm.log
+log_level = notice
+
+[www]
+listen = /tmp/php7-cgi.sock
+listen.backlog = -1
+listen.allowed_clients = 127.0.0.1
+listen.owner = www
+listen.group = www
+listen.mode = 0666
+user = www
+group = www
+pm = dynamic
+pm.max_children = 10
+pm.start_servers = 2
+pm.min_spare_servers = 1
+pm.max_spare_servers = 6
+request_terminate_timeout = 100
+request_slowlog_timeout = 0
+slowlog = var/log/slow.log
+```
+
+#### 6.修改NGINX配置，让NGINX用PHP7.1.7来解析PHP
+```
+vim /usr/local/nginx/conf/vhost/xxx.com.conf
+找到 fastcgi_pass 
+将 unix:/tmp/php-cgi.sock; 改为  unix:/tmp/php7-cgi.sock; 
+```
+
+#### 7.重启NGINX
+```
+/usr/local/nginx/sbin/nginx -s reload
+```

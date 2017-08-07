@@ -13,7 +13,7 @@ yum -y install gmp-devel readline-devel net-snmp-devel libxslt-devel
 #### 1.下载并解压PHP7.1.7
 ````
 wget http://am1.php.net/get/php-7.1.7.tar.gz/from/this/mirror
-mv mirror.1 php-7.1.7.tar.gz
+mv mirror php-7.1.7.tar.gz
 tar zxvf php-7.1.7.tar.gz
 cd php-7.1.7
 ````

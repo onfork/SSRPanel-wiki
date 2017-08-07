@@ -1,30 +1,14 @@
 ## 0.安装一大堆必备的东西
 ```
-yum -y install libevent-devel
 yum -y install gcc g++ gcc+ gcc-c++
 yum -y install git autoconf
-yum -y install pcre-devel
-yum -y install openssl openssl-devel
 yum -y install pcre-devel openssl openssl-devel
-yum -y install vim pv rsync
-yum -y install  libxml2 libxml2-devel
-yum -y install libxml2-devel openssl-devel libcurl-devel libjpeg-devel libpng-devel libicu-devel openldap-devel
+yum -y install vim pv rsync git
+yum -y install libxml2 libxml2-devel libmcrypt libXpm-devel libc-client-devel libcurl-devel libjpeg-devel libpng-devel libicu-devel openldap-devel
 yum -y install curl gd2 gd libevent-devel
-yum -y install freetype-devel
-yum -y install libmcrypt
-yum -y install libXpm-devel
-yum -y install libc-client-devel
-yum -y install unixODBC-devel
-yum -y install aspell-devel
-yum -y install readline-devel
-yum -y install net-snmp-devel
-yum -y install libxslt-devel
-yum -y install enchant-devel
+yum -y install libxslt-devel freetype-devel unixODBC-devel aspell-devel readline-devel net-snmp-devel enchant-devel
 yum -y install bzip2 bzip2-devel
-yum -y install gmp-devel
-yum -y install readline-devel
-yum -y install net-snmp-devel
-yum -y install libxslt-devel
+yum -y install gmp-devel readline-devel net-snmp-devel libxslt-devel
 ```
 
 #### 1.下载并解压PHP7.1.7

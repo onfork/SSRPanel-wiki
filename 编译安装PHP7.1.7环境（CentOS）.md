@@ -4,8 +4,8 @@ yum -y install gcc g++ gcc+ gcc-c++
 yum -y install git autoconf vim pv rsync
 yum -y install pcre-devel openssl openssl-devel
 yum -y install libxml2 libxml2-devel libmcrypt libXpm-devel libc-client-devel libcurl-devel libjpeg-devel libpng-devel libicu-devel openldap-devel
-yum -y install curl gd2 gd libevent-devel
-yum -y install libxslt-devel freetype-devel unixODBC-devel aspell-devel readline-devel net-snmp-devel enchant-devel
+yum -y install curl gd2 gd unzip
+yum -y install libevent-devel libxslt-devel freetype-devel unixODBC-devel aspell-devel readline-devel net-snmp-devel enchant-devel
 yum -y install bzip2 bzip2-devel
 yum -y install gmp-devel readline-devel net-snmp-devel libxslt-devel
 ```

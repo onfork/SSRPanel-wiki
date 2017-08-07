@@ -111,6 +111,17 @@ make && make install
 再重新执行第2步，然后再执行第3步
 ```
 
+```
+出现如下错误：
+/root/php-7.1.7/ext/xmlrpc/libxmlrpc/encodings.c:74: undefined reference to `libiconv_open'
+
+vim Makefile
+找到 EXTRA_LIBS =
+在最后添加 -liconv
+保存
+再 make && make install
+```
+
 #### 5.编辑php-fpm配置（用于启动PHP）
 ```
 touch /usr/local/php7/etc/php-fpm.conf

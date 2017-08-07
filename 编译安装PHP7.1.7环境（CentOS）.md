@@ -159,7 +159,13 @@ vim /usr/local/nginx/conf/vhost/xxx.com.conf
 将 unix:/tmp/php-cgi.sock; 改为  unix:/tmp/php7-cgi.sock; 
 ```
 
-#### 7.重启NGINX
+#### 7.启动php-fpm
+```
+/usr/local/php7/sbin/php-fpm
+```
+
+#### 8.重启NGINX
 ```
 /usr/local/nginx/sbin/nginx -s reload
 ```
+

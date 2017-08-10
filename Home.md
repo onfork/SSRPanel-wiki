@@ -7,7 +7,7 @@
 4.账号流量（异常）监控
 5.账号到期自动停号
 6.账号到期提醒
-7.ssserver.log 日志分析器
+~~7.ssserver.log 日志分析器~~
 
 其他需求请到 https://t.me/ssrpanel 提
 ```

@@ -56,6 +56,7 @@ vnstat -u -i eth0
 #### 守护进程
 ```
 cp vnstatd /usr/sbin/vnstatd
+cp vnstatd /usr/bin/vnstatd
 cp examples/init.d/centos/vnstat /etc/init.d/
 chmod +x /etc/init.d/vnstat
 chkconfig --add vnstat

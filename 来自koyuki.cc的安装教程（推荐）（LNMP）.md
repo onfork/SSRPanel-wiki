@@ -1,0 +1,1 @@
+https://www.koyuki.cc/archives/388

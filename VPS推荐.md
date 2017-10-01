@@ -18,7 +18,9 @@ https://www.linode.com/?r=2d4a0088743a2a06e3405514d486b8966c51a439
 
 ````
 点这个链接注册有送美金：
+
 https://bandwagonhost.com/aff.php?aff=20075
 
-上面那个可能无法访问，可以点这个
+上面那个要是无法访问就点这个：
+
 https://bwh1.net/aff.php?aff=20075

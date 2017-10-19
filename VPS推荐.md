@@ -11,16 +11,11 @@
 
 https://www.linode.com/?r=2d4a0088743a2a06e3405514d486b8966c51a439
 
-### banwagon(江湖人称：搬瓦工)
+### bandwagonhost(江湖人称：搬瓦工)
 ```
 1.一定要注册进去看，没注册的跟注册的看到的内容是有差别的
 2.找介绍里有带CN2这个关键字的，优先购买这种，连大陆的快很多
 3.买512M内存的就够用了，推荐买1G内存的
 ````
 点这个链接注册有送美金：
-
-https://bandwagonhost.com/aff.php?aff=20075
-
-上面那个要是无法访问就点这个：
-
 https://bwh1.net/aff.php?aff=20075

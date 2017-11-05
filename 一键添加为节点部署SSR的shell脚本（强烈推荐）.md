@@ -8,6 +8,5 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/Hao-Luo/Others/
 
 ## 提示
 ```
-目前仅适用于CentOs 7 
-CentOS 6 下无systemctl，可能会报错
+目前这个脚本不太完善，我改了一下放到ssrpanel项目下的server/deploy_ssr.sh
 ```

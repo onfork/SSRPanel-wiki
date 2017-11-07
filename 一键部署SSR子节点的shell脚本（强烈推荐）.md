@@ -10,3 +10,8 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/Hao-Luo/Others/
 ```
 目前这个脚本不太完善，我改了一下放到ssrpanel项目下的server/deploy_ssr.sh
 ```
+
+## 已改善
+```
+该脚本我已改善，推荐CentOS 6下运行，请看项目首页
+```

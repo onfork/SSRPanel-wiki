@@ -1,7 +1,12 @@
 ## CentOS下编译安装vnstat
 ```
-1.必须是KVM，网卡名称时eth0，OVZ请自行摸索
+1.必须是KVM，网卡名称时eth0，OVZ请自行摸索（其实就是改网卡名）
 2.通过守护进程自动更新网卡流量到本地数据库文件
+```
+
+## 一键安装脚本
+```
+wget -N --no-check-certificate https://raw.githubusercontent.com/ssrpanel/ssrpanel/master/server/deploy_vnstat.sh;chmod +x deploy_vnstat.sh;./deploy_vnstat.sh
 ```
 
 ## 示例

@@ -1,4 +1,10 @@
-卸载套路云不干净的东西
+## 为什么要卸载
+```
+默认购买的阿里云VPS都自带一个aliyundun和一个aliyun-service，名字叫阿里云盾（安骑士）
+实质上是用来监控VPS是否安全，自动扫描进程、查杀病毒、上报漏洞用的，会识别SS(R)进程
+```
+
+## 卸载阿里云盾监控
 ```
 wget http://update.aegis.aliyun.com/download/uninstall.sh
 chmod +x uninstall.sh

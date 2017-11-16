@@ -41,3 +41,8 @@ Installing shared extensions:     /usr/local/php/lib/php/extensions/no-debug-non
 ```
 extension=/usr/local/php/lib/php/extensions/no-debug-non-zts-20160303/fileinfo.so
 ```
+
+## 重启php-fpm
+```
+service php-fpm restart
+```

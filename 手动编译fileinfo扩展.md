@@ -31,3 +31,13 @@ cd /usr/local/php/include/php/ext/fileinfo
 ```
 make && make install
 ```
+
+## 它会生成一个包到指定位置
+```
+Installing shared extensions:     /usr/local/php/lib/php/extensions/no-debug-non-zts-20160303/
+```
+
+## 编辑php.ini把包引用进去
+```
+extension=/usr/local/php/lib/php/extensions/no-debug-non-zts-20160303/fileinfo.so
+```

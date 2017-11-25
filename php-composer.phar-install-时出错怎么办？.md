@@ -21,7 +21,7 @@ Your requirements could not be resolved to an installable set of packages.
 因为扩展组件需要用到7.1以上的PHP，所以先给环境里装个PHP7.1吧，不懂得话看WIKI
 
 
-## 漏了php扩展fileinfo
+## 漏了php扩展fileinfo（验证码需要用到）
 ```
 Loading composer repositories with package information
 Installing dependencies (including require-dev) from lock file

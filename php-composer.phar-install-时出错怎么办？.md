@@ -1,3 +1,4 @@
+## PHP版本低于7.1
 ```
 [root@centos-2gb-sgp1-01 ssrpanel]# php composer.phar install
 Loading composer repositories with package information

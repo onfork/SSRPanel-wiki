@@ -3,7 +3,7 @@
 
 ## 下载并解压PHP源码包（内含fileinfo扩展源码）
 ```
-wget http://cn2.php.net/get/php-7.1.11.tar.gz/from/this/mirror && mv mirror php-7.1.11.tar.gz
+wget http://us.php.net/get/php-7.1.11.tar.gz/from/this/mirror && mv mirror php-7.1.11.tar.gz
 tar zxvf php-7.1.11.tar.gz && cd php-7.1.11/ext
 ```
 

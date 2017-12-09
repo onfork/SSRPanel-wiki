@@ -22,5 +22,6 @@ https://bwh1.net/aff.php?aff=20075
 ```
 1.买1G+内存的KVM
 2.德国线路直连大陆
+3.用的人少，ping值在300ms左右，线路稳定，从来不炸
 ```
 https://www.ultravps.eu/?pdid=OB585442545DO6331C64

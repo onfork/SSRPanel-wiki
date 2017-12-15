@@ -26,6 +26,7 @@ https://bwh1.net/aff.php?aff=20075
 3.ping值低于200ms，油管白天稳定4K晚上2K
 3.联通宽带强烈推荐
 ```
+优惠码：30YEAR （756M内存的年付仅32刀）
 https://manage.hostdare.com/aff.php?aff=241
 
 ### UltraVPS

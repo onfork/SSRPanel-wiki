@@ -12,17 +12,17 @@ https://www.linode.com/?r=2d4a0088743a2a06e3405514d486b8966c51a439
 ### BandwagonHOST
 ```
 1.一定要注册进去看，没注册的跟注册的看到的内容是有差别的
-2.一定要选CN2线路的KVM系列
+2.一定要选CN2线路的KVM系列（支付宝）
 3.节点机买512M+内存的就够用了，搭建面板的推荐买1G+内存的
 4.ping值低于200ms，油管白天稳定4K晚上2K
 5.电信宽带强烈推荐
 ````
-https://bwh1.net/aff.php?aff=20075
+https://bandwagonhost.com/aff.php?aff=20075
 
 ### HostDare
 ```
 1.一定要选CN2线路的KVM系列，比BandwagonHOST贵一点，但是速度快且稳定，超售没有BandwagonHOST那么严重
-2.有中文界面，购买简单
+2.有中文界面，购买简单（微信、支付宝）
 3.ping值低于200ms，油管白天稳定4K晚上2K
 3.联通宽带强烈推荐
 ```

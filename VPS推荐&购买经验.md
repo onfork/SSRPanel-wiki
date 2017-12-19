@@ -65,6 +65,6 @@ https://www.ultravps.eu/?pdid=OB585442545DO6331C64
 4.最劲爆：买乌克兰的，不限流量
 5.需要发Ticket给客服，解除10M带宽的限制
 Ticket内容如下（感谢leon提供）：
-
+Hello, Is there bandwidth limitation in Asia?
 ```
 http://takewyn.ru/?from=4237

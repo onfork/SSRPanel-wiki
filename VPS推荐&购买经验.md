@@ -1,4 +1,4 @@
-### Linode
+### Linode [日本]
 ````
 1.强烈建议购买Linode【东京】或【新加坡】节点，稳定、延迟低
 2.1G内存VPS也就够用了，LNMP一键安装可能无法安装，推荐直接买2G内存的
@@ -11,7 +11,7 @@
 
 https://www.linode.com/?r=2d4a0088743a2a06e3405514d486b8966c51a439
 
-### BandwagonHOST
+### BandwagonHOST [美国、加拿大、CN2]
 ```
 1.一定要注册进去看，没注册的跟注册的看到的内容是有差别的
 2.一定要选CN2线路的KVM系列（支付宝）
@@ -19,10 +19,11 @@ https://www.linode.com/?r=2d4a0088743a2a06e3405514d486b8966c51a439
 4.ping值低于200ms，油管白天稳定4K晚上2K
 5.电信宽带强烈推荐
 6.支持UDP，可玩游戏
+7.实测是美国IP，但是油管显示是加拿大IP，可当作加拿大用
 ````
 https://bandwagonhost.com/aff.php?aff=20075
 
-### HostDare
+### HostDare [美国、CN2]
 ```
 1.一定要选CN2线路的KVM系列，比BandwagonHOST贵一点，但是速度快且稳定，超售没有BandwagonHOST那么严重
 2.有中文界面，购买简单（微信、支付宝）
@@ -34,7 +35,7 @@ https://bandwagonhost.com/aff.php?aff=20075
 优惠码：30YEAR （756M内存的年付仅32刀）
 https://manage.hostdare.com/aff.php?aff=241
 
-### UltraVPS [德国、美国、便宜]
+### UltraVPS [德国、美国]
 ```
 1.买1G+内存的KVM
 2.德国线路直连大陆，油管白天稳定4K晚上2K

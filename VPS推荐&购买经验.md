@@ -53,5 +53,6 @@ https://manage.hostdare.com/aff.php?aff=241
 4.推荐德国、洛杉矶线路，买UltraKVM系列，便宜稳定大流量必备
 5.UltraKVM-50以上系列有IPV6，校园网可用
 6.支持UDP，可玩游戏
+7.单机跑SSR服务，用纯JSON，500个账号同时在线不炸机，稳定性牛的一逼（洛杉矶）
 ```
 https://www.ultravps.eu/?pdid=OB585442545DO6331C64

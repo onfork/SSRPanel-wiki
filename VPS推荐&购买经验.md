@@ -57,7 +57,7 @@ https://manage.hostdare.com/aff.php?aff=241
 ```
 https://www.ultravps.eu/?pdid=OB585442545DO6331C64
 
-### TakeWYN（俄罗斯、乌克兰、直连）
+### TakeWYN（乌克兰、直连）
 ```
 1.适合做节点用，放面板的话用1G+内存的，用chrome浏览器进去看，右键翻译
 2.买乌克兰的，ping值在300ms左右，稳定不炸机

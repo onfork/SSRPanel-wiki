@@ -5,6 +5,7 @@
 3.大陆直连，速度快，ping值晚上低于150ms，白天低于100ms，油管白天稳定4K晚上2K
 4.有IPV6，校园网可用
 5.电信、联通宽带强烈推荐
+6.支持UDP，可玩游戏
 ````
 点这个链接注册有送美金：
 
@@ -17,6 +18,7 @@ https://www.linode.com/?r=2d4a0088743a2a06e3405514d486b8966c51a439
 3.节点机买512M+内存的就够用了，搭建面板的推荐买1G+内存的
 4.ping值低于200ms，油管白天稳定4K晚上2K
 5.电信宽带强烈推荐
+6.支持UDP，可玩游戏
 ````
 https://bandwagonhost.com/aff.php?aff=20075
 
@@ -27,6 +29,7 @@ https://bandwagonhost.com/aff.php?aff=20075
 3.ping值低于200ms，油管白天稳定4K晚上2K
 4.联通宽带强烈推荐
 5.2G以上内存有IPV6，校园网可用
+6.支持UDP，可玩游戏
 ```
 优惠码：30YEAR （756M内存的年付仅32刀）
 https://manage.hostdare.com/aff.php?aff=241
@@ -38,5 +41,6 @@ https://manage.hostdare.com/aff.php?aff=241
 3.德国ping值在300ms左右，主要是用的人少所以很稳定，从来不炸
 4.推荐德国、洛杉矶线路，买UltraKVM系列，便宜稳定大流量必备
 5.UltraKVM-50以上系列有IPV6，校园网可用
+6.支持UDP，可玩游戏
 ```
 https://www.ultravps.eu/?pdid=OB585442545DO6331C64

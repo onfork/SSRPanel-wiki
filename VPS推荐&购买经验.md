@@ -1,4 +1,14 @@
-### Linode [日本]
+## 警告：千万不要买任何一家的OVZ(OpenVZ)系列的VPS
+````
+1.无法加速
+2.超售严重
+3.频繁炸机
+4.内存都是假的（基本打5折）
+5.没有交换分区（swap），有些程序莫名其妙错误
+6.5G内存的OVZ都顶不过1G内存的KVM
+````
+
+### Linode [日本、直连]
 ````
 1.强烈建议购买Linode【东京】或【新加坡】节点，稳定、延迟低
 2.1G内存VPS也就够用了，LNMP一键安装可能无法安装，推荐直接买2G内存的
@@ -35,7 +45,7 @@ https://bandwagonhost.com/aff.php?aff=20075
 优惠码：30YEAR （756M内存的年付仅32刀）
 https://manage.hostdare.com/aff.php?aff=241
 
-### UltraVPS [德国、美国]
+### UltraVPS [德国、美国、直连]
 ```
 1.买1G+内存的KVM
 2.德国线路直连大陆，油管白天稳定4K晚上2K

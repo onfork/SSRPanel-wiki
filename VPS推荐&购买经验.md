@@ -32,6 +32,7 @@ https://www.linode.com/?r=2d4a0088743a2a06e3405514d486b8966c51a439
 7.实测是美国IP，但是油管显示是加拿大IP，可当作加拿大用
 ````
 https://bandwagonhost.com/aff.php?aff=20075
+
 https://bwh1.net/aff.php?aff=20075
 
 ### HostDare [美国、CN2]

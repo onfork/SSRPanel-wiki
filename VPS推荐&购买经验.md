@@ -8,7 +8,7 @@
 6.5G内存的OVZ都顶不过1G内存的KVM
 ````
 
-### Linode [日本、直连]
+### Linode [日本、新加坡、直连]
 ````
 1.强烈建议购买Linode【东京】或【新加坡】节点，稳定、延迟低
 2.1G内存VPS也就够用了，LNMP一键安装可能无法安装，推荐直接买2G内存的
@@ -47,7 +47,7 @@ https://bwh1.net/aff.php?aff=20075
 优惠码：30YEAR （756M内存的年付仅32刀）
 https://manage.hostdare.com/aff.php?aff=241
 
-### UltraVPS [德国、美国、直连]
+### UltraVPS [德国、荷兰、直连]
 ```
 1.买1G+内存的KVM
 2.德国线路直连大陆，油管白天稳定4K晚上2K
@@ -59,7 +59,7 @@ https://manage.hostdare.com/aff.php?aff=241
 ```
 https://www.ultravps.eu/?pdid=OB585442545DO6331C64
 
-### TakeWYN（乌克兰、直连）
+### TakeWYN（乌克兰、不限流量、直连）
 ```
 1.适合做节点用，放面板的话用1G+内存的，用chrome浏览器进去看，右键翻译
 2.买乌克兰的，ping值在300ms左右，稳定不炸机

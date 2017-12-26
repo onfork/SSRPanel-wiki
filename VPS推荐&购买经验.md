@@ -53,7 +53,7 @@ https://bwh1.net/aff.php?aff=20075
 5.2G以上内存有IPV6，校园网可用
 6.支持UDP，可玩游戏
 ```
-优惠码：30YEAR （756M内存的年付仅32刀）
+7折券：9FSLJ9ALLX
 https://manage.hostdare.com/aff.php?aff=241
 
 ### UltraVPS [德国、荷兰、直连]

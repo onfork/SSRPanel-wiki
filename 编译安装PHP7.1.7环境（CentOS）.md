@@ -10,15 +10,15 @@ yum -y install bzip2 bzip2-devel
 yum -y install gmp-devel readline-devel net-snmp-devel libxslt-devel
 ```
 
-#### 1.下载并解压PHP7.1.7
+#### 1.下载并解压PHP7.1.12
 ````
-wget http://php.net/get/php-7.1.7.tar.gz/from/this/mirror
-mv mirror php-7.1.7.tar.gz
-tar zxvf php-7.1.7.tar.gz
-cd php-7.1.7
+wget http://php.net/get/php-7.1.12.tar.gz/from/this/mirror
+mv mirror php-7.1.12.tar.gz
+tar zxvf php-7.1.12.tar.gz
+cd php-7.1.12
 ````
 
-#### 2.配置PHP7.1.7
+#### 2.配置PHP7.1.12
 ```
 ./configure \
 --prefix=/usr/local/php7 \
@@ -113,7 +113,7 @@ make && make install
 
 ```
 出现如下错误：
-/root/php-7.1.7/ext/xmlrpc/libxmlrpc/encodings.c:74: undefined reference to `libiconv_open'
+/root/php-7.1.12/ext/xmlrpc/libxmlrpc/encodings.c:74: undefined reference to `libiconv_open'
 
 vim Makefile
 找到 EXTRA_LIBS =
@@ -152,7 +152,7 @@ request_slowlog_timeout = 0
 slowlog = var/log/slow.log
 ```
 
-#### 6.修改NGINX配置，让NGINX用PHP7.1.7来解析PHP
+#### 6.修改NGINX配置，让NGINX用PHP7.1.12来解析PHP
 ```
 vim /usr/local/nginx/conf/vhost/xxx.com.conf
 找到 fastcgi_pass 

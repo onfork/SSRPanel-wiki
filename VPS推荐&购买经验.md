@@ -73,6 +73,14 @@ https://manage.hostdare.com/aff.php?aff=241
 ```
 https://www.ultravps.eu/?pdid=OB585442545DO6331C64
 
+### hostodo（便宜、节点机必备）
+```
+1.一定要买KVM系列（防炸机）
+2.优先选择内存512+的，他们家都是美国的，只有三个机房，都可以买，优先买洛杉矶的
+3.超级便宜，洛杉矶512M的KVM，半年才10刀
+```
+https://hostodo.com/portal/aff.php?aff=506
+
 ### TakeWYN（乌克兰、不限流量、直连）
 ```
 1.适合做节点用，放面板的话用1G+内存的，用chrome浏览器进去看，右键翻译

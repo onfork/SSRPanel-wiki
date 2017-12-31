@@ -81,6 +81,13 @@ https://www.ultravps.eu/?pdid=OB585442545DO6331C64
 ```
 https://hostodo.com/portal/aff.php?aff=506
 
+### anynode（美国）
+```
+1.只有KVM，推荐买洛杉矶的
+2.千万别买256M、512M的，会炸机，真的会炸机，很频繁的炸机，只推荐上1G内存的，512M内存的还不如买bandwagonhost
+```
+https://billing.anynode.net/aff.php?aff=535
+
 ### TakeWYN（乌克兰、不限流量、直连）
 ```
 1.适合做节点用，放面板的话用1G+内存的，用chrome浏览器进去看，右键翻译

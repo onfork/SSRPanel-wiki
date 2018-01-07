@@ -7,7 +7,7 @@ server
 	listen 80;
 	server_name www.xxx.com;
 	index index.html index.htm index.php default.html default.htm default.php;
-	root  /home/wwwroot/ssrpanel/public;
+	root  /home/wwwroot/ssrpanel/public; # 注意这里，是指向ssrpanel的public目录
 
 	include other.conf;
 	location ~ [^/]\.php(/|$)
@@ -29,6 +29,7 @@ server
 		expires      12h;
 	}
 
+        # 注意这里，必须加入以下url重写规则
 	location / {
 		try_files $uri $uri/ /index.php$is_args$args;
 	}

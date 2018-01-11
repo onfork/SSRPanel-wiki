@@ -4,6 +4,7 @@
 2.搬瓦工默认系统中的swap大小只有实际内存的1/4，有些用到swap的进程老是被自动杀死。
 3.买KVM不要买OVZ，没有swap！具体看这：https://github.com/ssrpanel/SSRPanel/wiki/VPS%E6%8E%A8%E8%8D%90&%E8%B4%AD%E4%B9%B0%E7%BB%8F%E9%AA%8C
 4.本质上是加swap文件并挂载，而不是加swap分区，不建议直接改swap分区
+5.下面的命令记得用root权限操作
 ```
 
 ## 查看现有的swap

@@ -18,4 +18,11 @@ rpm -ivh http://soft.91yun.org/ISO/Linux/CentOS/kernel/kernel-2.6.32-504.3.3.el6
 rpm -ivh http://soft.91yun.org/ISO/Linux/CentOS/kernel/kernel-3.10.0-229.1.2.el7.x86_64.rpm --force
 ```
 
-完了reboot重启下VPS
+#### 看一眼成功没
+```
+rpm -qa | grep kernel
+```
+
+重启查看是否生效
+reboot
+uname -r

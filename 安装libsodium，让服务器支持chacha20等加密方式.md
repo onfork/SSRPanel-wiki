@@ -1,4 +1,5 @@
 ## 用chacha20加密方式需要安装libsodium
+注意：libsodium从1.0.15开始就废弃了aes-128-ctr
 ```
 yum install m2crypto git libsodium -y
 yum -y groupinstall "Development Tools"

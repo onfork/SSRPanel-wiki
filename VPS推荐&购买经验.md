@@ -74,14 +74,6 @@ https://manage.hostdare.com/aff.php?aff=241
 ```
 https://www.ultravps.eu/?pdid=OB585442545DO6331C64
 
-### hostodo（便宜、节点机必备）
-```
-1.一定要买KVM系列（防炸机）
-2.优先选择内存512+的，他们家都是美国的，只有三个机房，都可以买，优先买洛杉矶的
-3.超级便宜，洛杉矶512M的KVM，半年才10刀
-```
-https://hostodo.com/portal/aff.php?aff=506
-
 ### anynode（美国）
 ```
 1.只有KVM，推荐买洛杉矶的

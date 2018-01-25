@@ -3,8 +3,8 @@
 
 ## 下载并解压PHP源码包（内含fileinfo扩展源码）
 ```
-wget http://us.php.net/get/php-7.1.11.tar.gz/from/this/mirror && mv mirror php-7.1.11.tar.gz
-tar zxvf php-7.1.11.tar.gz && cd php-7.1.11/ext
+wget http://us.php.net/get/php-7.1.13.tar.gz/from/this/mirror && mv mirror php-7.1.13.tar.gz
+tar zxvf php-7.1.13.tar.gz && cd php-7.1.13/ext
 ```
 
 ## 找到本地装好的PHP的ext目录，把下好fileinfo源码复制进去

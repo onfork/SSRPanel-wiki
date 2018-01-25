@@ -43,6 +43,7 @@ https://www.vultr.com/?ref=7031862
 6.支持UDP，可玩游戏
 7.实测是美国IP，但是油管显示是加拿大IP，可当作加拿大用
 8.购买顺序：CN2的全部、其他KVM、香港（贼贵）
+** CN2速度很棒，不过已经列入监控范围了，动不动就封这家的 ** 
 ````
 https://bandwagonhost.com/aff.php?aff=20075
 

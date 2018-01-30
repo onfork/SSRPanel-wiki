@@ -75,22 +75,3 @@ https://manage.hostdare.com/aff.php?aff=241
 ```
 https://www.ultravps.eu/?pdid=OB585442545DO6331C64
 
-### anynode（美国）
-```
-1.只有KVM，推荐买洛杉矶的
-2.千万别买256M、512M的，会很频繁的炸机
-3.只推荐上1G内存的，512M内存的还不如买bandwagonhost
-```
-https://billing.anynode.net/aff.php?aff=535
-
-### TakeWYN（乌克兰、不限流量、直连）
-```
-1.适合做节点用，放面板的话用1G+内存的，用chrome浏览器进去看，右键翻译
-2.买乌克兰的，ping值在300ms左右，稳定不炸机
-3.IP便宜（多一个IP才多1刀/月，做节点非常合适，选1G内存+1IP才5刀/月）
-4.最劲爆：买乌克兰的，不限流量
-5.需要发Ticket给客服，解除10M带宽的限制
-Ticket内容如下（感谢leon提供）：
-Hello, Is there bandwidth limitation in Asia?
-```
-http://takewyn.ru/?from=4237

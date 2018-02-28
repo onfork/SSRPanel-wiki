@@ -166,6 +166,11 @@ vim /usr/local/nginx/conf/vhost/xxx.com.conf
 将 unix:/tmp/php-cgi.sock; 改为  unix:/tmp/php7-cgi.sock; 
 ```
 
+### 
+```
+把php.ini 拷贝到 /usr/local/php7/lib/下
+```
+
 #### 7.启动php-fpm
 ```
 /usr/local/php7/sbin/php-fpm

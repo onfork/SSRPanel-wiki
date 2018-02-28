@@ -124,6 +124,13 @@ vim Makefile
 
 #### 5.编辑php-fpm配置（用于启动PHP）
 ```
+创建www用户组
+groupadd www
+
+把添加www用户并加入www组并禁止登录
+useradd -g www www -s /sbin/nologin
+
+生成php7的php-fpm
 touch /usr/local/php7/etc/php-fpm.conf
 vim /usr/local/php7/etc/php-fpm.conf
 

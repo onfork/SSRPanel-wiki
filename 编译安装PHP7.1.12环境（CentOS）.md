@@ -1,4 +1,11 @@
 ## 0.安装一大堆必备的东西
+先执行
+```
+yum install -y epel-release
+yum install -y libmcrypt-devel
+```
+
+再执行
 ```
 yum -y install gcc g++ gcc+ gcc-c++
 yum -y install git autoconf vim pv rsync

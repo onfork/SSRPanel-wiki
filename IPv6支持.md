@@ -4,7 +4,7 @@
 ```
 
 ## SSR(R)设置
-将 `user-config.json` 中的  "dns_ipv6" 的 值由 false 改为 true
+将 `user-config.json` 中的  `"dns_ipv6"` 的 值由 `false` 改为 `true`
 
 配置项保持默认值False时，节点不会向DNS请求IPv6结果，改完之后SSR(R)可接受IPv6连接。
 

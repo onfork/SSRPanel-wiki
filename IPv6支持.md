@@ -1,7 +1,7 @@
 ## 使用条件
-```
+
 连接设备的网卡上有2开头的Global类IPv6地址才能使用
-```
+
 
 ## SSR(R)设置
 将 `user-config.json` 中的  `"dns_ipv6"` 的 值由 `false` 改为 `true`

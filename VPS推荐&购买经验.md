@@ -64,3 +64,10 @@ https://manage.hostdare.com/aff.php?aff=241
 ```
 https://www.ultravps.eu/?pdid=OB585442545DO6331C64
 
+
+#### 其他我玩过的VPS品牌，不推荐
+- anynode 理由：龟速、母鸡不稳定，经常炸鸡
+- vultr 理由：小白千万别买，尤其是用那些SS、SSR一键包的，你会发现安装没多久就会SSH连不上，但是能ping通，因为vultr自带检测机制
+- hostdare 理由：龟速
+- enoctus 理由：刚推出的时候非常好，后面被大量国人小白玩烂了，加上其香港VPS价格便宜，频繁遭到同行攻击，变得极其不稳定
+- aliyun 理由：国内限端口限网速可以理解，国外还限制，有点叼毛了；速度是不错的，卖流量可以用。如果用，一定要卸载安骑士，请翻wiki

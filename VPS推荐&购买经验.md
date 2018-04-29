@@ -46,7 +46,7 @@ https://bwh1.net/aff.php?aff=20075
 5.2G以上内存有IPV6，校园网可用
 6.支持UDP，可玩游戏
 7.购买顺序：CN2的全部、其他亚洲优化
-8.注册登录进去之后要看左边 有一个show menu，注意看。有货就抢，速度快！
+8.注册登录进去之后要看左边 有一个show menu，注意看。有货就抢，手速度快，千万别开代理买，会被判欺诈！
 ```
 优惠码：30YEAR
 https://manage.hostdare.com/aff.php?aff=241

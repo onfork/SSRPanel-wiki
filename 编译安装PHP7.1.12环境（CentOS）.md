@@ -8,7 +8,7 @@ yum install -y libmcrypt-devel
 再执行
 ```
 yum -y install gcc g++ gcc+ gcc-c++
-yum -y install git autoconf vim pv rsync
+yum -y install autoconf vim pv rsync
 yum -y install pcre-devel openssl openssl-devel
 yum -y install libxml2 libxml2-devel libmcrypt libXpm-devel libc-client-devel libcurl-devel libjpeg-devel libpng-devel libicu-devel openldap-devel
 yum -y install curl gd2 gd unzip

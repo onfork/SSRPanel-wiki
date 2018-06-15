@@ -7,7 +7,7 @@ vi /etc/sysctl.conf
 sysctl -p
 ```
 
-## 改端口
+## 改SSH端口
 ```
 vi /etc/ssh/sshd_config
 

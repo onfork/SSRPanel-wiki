@@ -51,6 +51,7 @@ https://manage.hostdare.com/aff.php?aff=241
 7.实测是美国IP，但是油管显示是加拿大IP，可当作加拿大用
 8.购买顺序：CN2的全部、香港（贼贵）、其他KVM
 9.注意：所有VPS都已经取消月付了，最便宜都是季付了
+10.提示：针对大陆地区用户，每个VPS每两个月可以检测一次是否被墙IP，可以免费换一次IP
 ````
 https://bwh1.net/aff.php?aff=20075
 

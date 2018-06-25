@@ -6,7 +6,7 @@ https://www.linode.com/?r=2d4a0088743a2a06e3405514d486b8966c51a439
 
 ## 创建VPS
 注册 并登录 Linode，然后 找到 `Add a Linode`,
-选择你需要购买的VPS，然后，Location 选择 `Fremont，CA` 或者 `Tokyo 2，JP` (这两个是优先推荐的)，其他任意（具体速度可以看看这个
+选择你需要购买的VPS配置，然后，Location 选择 `Fremont，CA` 或者 `Tokyo 2，JP` (这两个是优先推荐的)，其他任意（具体速度可以看看这个
 https://www.linode.com/speedtest ，自己去一个个PING一遍，看看哪个适合你）
 然后点`Add this Linode`则开始创建机器。
 

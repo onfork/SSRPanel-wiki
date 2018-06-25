@@ -11,7 +11,7 @@ https://www.linode.com/speedtest ，自己去一个个PING一遍，看看哪个�
 然后点`Add this Linode`则开始创建机器。
 
 ## 修改内核
-创建新机器后，点Dashboard进去看主机详情，找到 Rebuild 点一下，选择centos7，然后拉倒最底部按钮点一下，它开始创建主机配置。
+创建新机器后，点Dashboard进去看主机详情，找到 Rebuild 点一下，选择centos7，然后网页滚倒最底部按钮点一下，它开始创建主机配置。
 等他创建完之后再找到 profiles 点击进去选择 kernel 为 4.1.5-86_64-linode61 
 然后boot（或者reboot）系统
 

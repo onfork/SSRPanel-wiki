@@ -17,7 +17,7 @@ https://www.linode.com/speedtest ，自己去一个个PING一遍，看看哪个�
 
 ## 安装基础命令工具
 ```
-yum install -y wget vim
+yum install -y wget vim unzip
 ```
 
 ## 安装锐速

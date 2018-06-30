@@ -80,7 +80,7 @@ https://www.ultravps.eu/?pdid=OB585442545DO6331C64
 4.买完会提示pending，等待人工开通，开通完发面板账号密码给你（其实只有账号，发个ticket跟他说没有密码，他就发来）
 5.15%折扣码 ：IMTHENEWGUYHERE
 6.经过我实测，比超售的搬瓦工强太多了
-7.只支持paypal
+7.只支持paypal，可以月付
 ```
 https://clients.securedspeed.com/aff.php?aff=94
 

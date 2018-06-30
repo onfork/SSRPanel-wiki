@@ -72,6 +72,11 @@ https://bwh1.net/aff.php?aff=20075
 ```
 https://www.ultravps.eu/?pdid=OB585442545DO6331C64
 
+## securedspeed
+```
+1.
+```
+https://clients.securedspeed.com/aff.php?aff=94
 
 #### 其他我玩过的VPS品牌，不推荐
 - anynode 理由：龟速、母鸡不稳定，经常炸鸡

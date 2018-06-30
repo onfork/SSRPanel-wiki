@@ -74,7 +74,13 @@ https://www.ultravps.eu/?pdid=OB585442545DO6331C64
 
 ## securedspeed
 ```
-1.
+1.100M电信宽带可以跑满速的OVZ，非常小众
+2.256M和512M适合自用，1G内存适合节点
+3.购买的时候请记得务必选择洛杉矶，是QT机房，针对大陆优化过，速度非常棒（PING 在170ms左右）
+4.买完会提示pending，等待人工开通，开通完发面板账号密码给你（其实只有账号，发个ticket跟他说没有密码，他就发来）
+5.15%折扣码 ：IMTHENEWGUYHERE
+6.经过我实测，比超售的搬瓦工强太多了
+7.只支持paypal
 ```
 https://clients.securedspeed.com/aff.php?aff=94
 

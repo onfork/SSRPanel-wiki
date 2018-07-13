@@ -9,4 +9,6 @@
  - 有问题提ISSUE
  - 愿意参与开发的，请提PR，谢谢
  - 小群里有一群大佬，有专属客户端定制需求的进群了解 
-[进小群](https://github.com/ssrpanel/SSRPanel/wiki/%E6%88%91%E8%A6%81%E8%BF%9B%E5%B0%8F%E7%BE%A4)
+ - 小群里也有我自己编译的windows SSR精简客户端（美女妹子图）和其他的一些工具（域名挖掘机、一键改dns）等
+
+[我要进小群](https://github.com/ssrpanel/SSRPanel/wiki/%E6%88%91%E8%A6%81%E8%BF%9B%E5%B0%8F%E7%BE%A4)

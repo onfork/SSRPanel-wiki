@@ -20,7 +20,7 @@ Port 22
 service sshd restart
 ```
 
-## CentOS 7
+#### CentOS 7
 ```
 默认系统可以通过以下命令快速修改 sshd_config中的 SSH 端口：
 

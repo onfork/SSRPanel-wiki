@@ -55,14 +55,6 @@ https://www.onevps.com/aff.php?aff=32
 ```
 https://manage.hostdare.com/aff.php?aff=241
 
-### UltraVPS
-```
-1.买1G+内存的KVM
-2.推荐洛杉矶线路，买UltraKVM系列，便宜稳定大流量必备
-3.购买顺序：只能买 洛杉矶！！其他地区都不行
-```
-https://www.ultravps.eu/?pdid=OB585442545DO6331C64
-
 
 #### 其他我玩过的VPS品牌，不推荐
 - anynode 理由：龟速、母鸡不稳定，经常炸鸡
@@ -72,3 +64,4 @@ https://www.ultravps.eu/?pdid=OB585442545DO6331C64
 - aliyun 理由：大陆的限端口限网速可以理解（毕竟国内带宽贵），国外的还限制，这有点不厚道了；速度是不错的，卖流量的可以用用。如果用，一定要卸载安骑士，教程请翻wiki，否则封你机器封你账号没商量
 - securedspeed OVZ，100M小水管（我以前觉得够，现在我觉得不够了，不再推荐了）
 - BandwagonHOST 知名小鸡搬瓦工，CN2是很牛逼，换IP是很牛逼，可是IP段真的被操到烂了，他们家的所有IP段都是高危段，动不动就封这家的，整个段的封，强别不推荐了（只挂面板还是可以的）
+- UltraVPS 只推荐洛杉矶，但是他们家的IP段很神奇，有的走CN2有的走GTT有的走直连，买纯粹得靠运气，不推荐了

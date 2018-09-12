@@ -19,8 +19,8 @@ cp redis.conf /etc/redis.conf
 
 ## 安装memcache
 ```
-wget http://memcached.org/latest
-tar -zxvf memcached-1.x.x.tar.gz
-cd memcached-1.x.x
+wget http://memcached.org/files/memcached-1.5.10.tar.gz
+tar -zxvf memcached-1.5.10.tar.gz
+cd memcached-1.5.10
 ./configure && make && make test && sudo make install
 ```

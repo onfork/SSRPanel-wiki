@@ -1,11 +1,11 @@
-NGINX 配置例子
-推荐使用LNMP傻瓜化添加虚拟机
-lnmp vhsot add
+## NGINX 配置例子
+推荐使用LNMP傻瓜化添加虚拟机 `lnmp vhsot add`
+
 ```
 server
 {
 	listen 80;
-	server_name www.xxx.com;
+	server_name demo.ssrpanel.com;
 	index index.html index.htm index.php default.html default.htm default.php;
 	root  /home/wwwroot/ssrpanel/public; # 注意这里，是指向ssrpanel的public目录
 
@@ -34,7 +34,7 @@ server
 		try_files $uri $uri/ /index.php$is_args$args;
 	}
 
-	access_log  /home/wwwlogs/www.xxx.com_access.log;
-	error_log  /home/wwwlogs/www.xxx.com_error.log;
+	access_log  /home/wwwlogs/demo.ssrpanel.com_access.log;
+	error_log  /home/wwwlogs/demo.ssrpanel.com_error.log;
 }
 ```

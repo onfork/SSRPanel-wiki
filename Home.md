@@ -7,5 +7,5 @@
 ## 疑难杂症
  - 有问题先自己翻ISSUE找不到再提ISSUE，欢迎提交PR
 
-## 内部交流群
-[我要进内部交流群](https://github.com/ssrpanel/SSRPanel/wiki/%E6%88%91%E8%A6%81%E8%BF%9B%E5%B0%8F%E7%BE%A4)
+## 内部交流
+[如何进内部交流群](https://github.com/ssrpanel/SSRPanel/wiki/%E6%88%91%E8%A6%81%E8%BF%9B%E5%B0%8F%E7%BE%A4)

@@ -14,9 +14,9 @@ VPS到手之后，有些内核锐速是不支持的，所以需要换一下
 ``rpm -ivh http://soft.91yun.org/ISO/Linux/CentOS/kernel/kernel-3.10.0-229.1.2.el7.x86_64.rpm --force``
 
 
-#### 看一眼成功没
+## 看是否成功
 ``rpm -qa | grep kernel``
 
-重启查看是否生效
+## 重启再看一遍
 ``reboot``
 ``uname -r``

@@ -157,10 +157,10 @@ listen.mode = 0666
 user = www
 group = www
 pm = dynamic
-pm.max_children = 10
-pm.start_servers = 2
-pm.min_spare_servers = 1
-pm.max_spare_servers = 6
+pm.max_children = 50
+pm.start_servers = 5
+pm.min_spare_servers = 5
+pm.max_spare_servers = 50
 request_terminate_timeout = 100
 request_slowlog_timeout = 0
 slowlog = var/log/slow.log
@@ -187,4 +187,3 @@ vim /usr/local/nginx/conf/vhost/xxx.com.conf
 ```
 /usr/local/nginx/sbin/nginx -s reload
 ```
-

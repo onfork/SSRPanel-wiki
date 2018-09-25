@@ -1,4 +1,3 @@
-## NGINX 配置例子
 推荐使用LNMP傻瓜化添加虚拟机 `lnmp vhsot add`
 
 ```

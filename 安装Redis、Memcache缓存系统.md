@@ -1,8 +1,8 @@
-## 为什么用redis
-SSRPanel是基于laravel框架开发的，laravel对redis的支持非常的好，其默认的缓存系统是使用file即文件缓存，读取速度有时候较慢。
-如果想加速网站的打开速度，可以使用redis，将原本放在磁盘上的file文件里的临时数据放到系统内存里，只需要更改 `SSRPanel/config/cache.php` 里的对应值即可
+## 为什么用Redis
+SSRPanel是基于Laravel框架开发的，Laravel对Redis的支持非常的好，其默认的缓存系统是使用file即文件缓存，读取速度有时候较慢。
+如果想加速网站的打开速度，可以使用Redis，将原本放在磁盘上的file文件里的临时数据放到系统内存里，只需要更改 `SSRPanel/config/cache.php` 里的对应值即可
 
-## 安装redis
+## 安装Redis
 ```
 wget http://download.redis.io/releases/redis-4.0.11.tar.gz
 tar zxvf redis-4.0.11.tar.gz
@@ -18,7 +18,7 @@ cp redis.conf /etc/redis-6379.conf
 /usr/local/bin/redis-server /etc/redis-6379.conf
 ```
 
-## 安装memcache
+## 安装Memcache
 ```
 wget http://memcached.org/files/memcached-1.5.10.tar.gz
 tar -zxvf memcached-1.5.10.tar.gz

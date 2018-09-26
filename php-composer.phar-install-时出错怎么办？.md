@@ -41,4 +41,6 @@ Your requirements could not be resolved to an installable set of packages.
   You can also run `php --ini` inside terminal to see which files are used by PHP in CLI mode.
 ```
 
-看WIKI，WIKI里有一个手动编译fileinfo的，如果是宝塔，请看宝塔安装ssrpanel的wiki
+[手动编译fileinfo](https://github.com/ssrpanel/SSRPanel/wiki/%E6%89%8B%E5%8A%A8%E7%BC%96%E8%AF%91fileinfo%E6%89%A9%E5%B1%95)
+
+使用宝塔的请看宝塔安装ssrpanel的wiki

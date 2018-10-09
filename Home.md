@@ -10,5 +10,5 @@
 
 
 ## 交流
-[只是星球](https://github.com/ssrpanel/SSRPanel/blob/master/public/assets/images/star.jpg?raw=true)
+[知识星球](https://github.com/ssrpanel/SSRPanel/blob/master/public/assets/images/star.jpg?raw=true)
 [如何进内部交流群](https://github.com/ssrpanel/SSRPanel/wiki/%E6%88%91%E8%A6%81%E8%BF%9B%E5%B0%8F%E7%BE%A4)

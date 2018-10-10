@@ -27,7 +27,7 @@ https://www.linode.com/?r=2d4a0088743a2a06e3405514d486b8966c51a439
 
 [Linode安装锐速+SS教程](https://github.com/ssrpanel/SSRPanel/wiki/Linode%EF%BC%88CentOS7%EF%BC%89%E5%AE%89%E8%A3%85%E9%94%90%E9%80%9F-SS)
 
-## ONEVPS
+## OneVPS
 ```
 1.油管秒开（比搬瓦工还快），全国ping都是30-80ms，**日本机房全国ping都是蓝，堪比阿里云，走IIJ线路**
 2.端口说是G口，实测在250M左右，首页上说不限流量，实际上限制10T/月

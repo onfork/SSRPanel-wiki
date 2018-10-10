@@ -49,6 +49,7 @@ https://www.onevps.com/aff.php?aff=32
 5.亮点：1.不限流量 2.100M独享口（比很多10M口的良心、比共享G口良心，市面上大多都是独享10M或者共享G口）
 6.价格适中：1G内存的900日元/余额（不到60块，跟onevps差不多，但是onevps是共享G口）
 7.可以看netflix
+8.有纯中文界面，可以支付宝直接扫码付款
 ```
 通过我的邀请链接注册并充值的，冲2000日元送2000日元
 https://www.conoha.jp/referral/?token=oT2NevzYDjp1zNWTUnJoRU9DWO7.m81f3q7V.npLEoHq6iRbjzo-XTD

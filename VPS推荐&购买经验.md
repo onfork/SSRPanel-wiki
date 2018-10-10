@@ -40,6 +40,19 @@ https://www.linode.com/?r=2d4a0088743a2a06e3405514d486b8966c51a439
 ```
 https://www.onevps.com/aff.php?aff=32
 
+### ConoHa
+```
+1.注册完得先充值2000日元才能购买VPS
+2.日本本土运营商，相比其他日本本土运营商限制条件几乎等于0
+3.注册的时候一定要选中华人民共和国，手机号码用你本人的，因为要接收短信验证码（不用紧张，你懂的）
+4.推荐机房：日本、新加坡
+5.亮点：1.不限流量 2.100M独享口（比很多10M口的良心、比共享G口良心，市面上大多都是独享10M或者共享G口）
+6.价格适中：1G内存的900日元/余额（不到60块，比onevps贵一点点，但是onevps是共享G口）
+7.可以看netflix
+```
+通过我的邀请链接注册并充值的，冲2000日元送2000日元
+https://www.conoha.jp/referral/?token=oT2NevzYDjp1zNWTUnJoRU9DWO7.m81f3q7V.npLEoHq6iRbjzo-XTD
+
 ### HostDare [美国、CN2]
 ```
 1.一定要选CN2线路的KVM系列，比搬瓦工贵一点，但是速度快且稳定，超售没有搬瓦工那么严重

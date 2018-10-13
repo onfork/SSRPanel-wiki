@@ -51,6 +51,8 @@ https://www.onevps.com/aff.php?aff=32
 7.有纯中文界面，可以支付宝直接扫码付款
 ```
 通过我的邀请链接注册并充值的，冲2000日元送2000日元
+得消费完才有送！！！
+
 https://www.conoha.jp/referral/?token=oT2NevzYDjp1zNWTUnJoRU9DWO7.m81f3q7V.npLEoHq6iRbjzo-XTD
 
 ### HostDare [美国、CN2]

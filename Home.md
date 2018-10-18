@@ -15,3 +15,4 @@
  - 如需商业化定制，请打赏或者直接加知识星球联络我，价钱好说，自个整理好需求写成word或者pdf，然后发给我（只能能实现都会实现，只是开发时间可能较长，平时工作忙）
 
 - LightNet定制：http://demo.ssrpanel.com/lightNet
+- 自动提号机：http://demo.ssrpanel.com/seller

@@ -1,3 +1,4 @@
+## 0.先在SSRPanel后台添加一个V2ray节点
 ## 1.下载群友封装好的java版控制台
 ```
 cd /root/

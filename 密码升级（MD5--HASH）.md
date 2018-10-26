@@ -7,3 +7,6 @@
 ## 更新
 进入到SSRPanel项目目录下，执行：`php artisan upgradeUserPassword`
 等待执行结束（中间没有任何提示），要执行过程可以看 storage/logs/laravel-xxx.log 日志
+
+## 相关
+https://cmmdwl.com/index.php/ssrpanel-hash-update/

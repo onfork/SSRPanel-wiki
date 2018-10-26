@@ -11,3 +11,8 @@
 
 ## 相关
 https://cmmdwl.com/index.php/ssrpanel-hash-update/
+
+## 不想升级
+如果你不想使用新版本，还要继续使用md5那种加密方式，这个版本包是最后一个稳定版本
+##### V4.4.2 
+https://github.com/ssrpanel/SSRPanel/archive/V4.4.2.tar.gz

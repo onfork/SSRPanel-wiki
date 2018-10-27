@@ -1,5 +1,5 @@
 ## 场景
-因为某些众所周知的原因，Shadowrocket、Quantumult、Kitsubebi、Potatso、Surge等这些优秀APP被App Store中国大陆区下架了。原有已购买这些APP的大陆区ID都也都无法下载或更新它们，需要下载或者使用它们都需要使用非大陆区App Store的ID进行下载（这些ID已购买了相应的APP）。股大量人士手上或多或少都有非大陆区App Store的ID。
+因为某些众所周知的原因，Shadowrocket、Quantumult、Kitsubebi、Potatso、Surge等这些优秀APP被App Store中国大陆区下架了。原有已购买这些APP的大陆区ID都也都无法下载或更新它们，需要下载或者使用它们都需要使用非大陆区App Store的ID进行下载（这些ID已购买了相应的APP）。
 
 ## 原因
 问：那么没有非大陆ID的人要如何使用这些APP？

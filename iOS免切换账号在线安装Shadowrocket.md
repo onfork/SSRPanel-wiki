@@ -11,12 +11,13 @@
 - emm...这个骚操作已经集成进了面板了，在iOS下的safari打开面板的用户个人中心，在订阅那的iOS就可以看到（安卓和PC是看不到的）
 
 ## 骚操作
-- 只能在iOS系统下的safari浏览器下才能 在线安装
+- 只能在iOS系统下才能看到这个在线安装的入口
 - 必须用你自己的已购买了相关APP的非大陆区ID去抓取ipa文件，抓到ipa文件替换到项目目录下的public/clients/xxxx.ipa
 - 更改public/clients/ipa.list文件内的那个ipa的URL
 - 替换完注意更改public/clients文件夹的权限
 
 ## 注意
+- 只能在iOS系统下的safari浏览器下才能 在线安装
 - ipa.list里的那个ipa的URL必须是https开头，所以，要求你的面板必须上https
 - ipa必须是你用自己的非大陆区抓下来的，面板里自带的是我自己抓的，用不了的
 - 用户在线安装这个ipa后，如果他从未装过这个app，则会提示输入账号密码，账号密码就是你用来抓取ipa的那个非大陆ID

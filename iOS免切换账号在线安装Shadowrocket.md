@@ -1,0 +1,25 @@
+## 场景
+因为某些众所周知的原因，Shadowrocket、Quantumult、Kitsubebi、Potatso、Surge等这些优秀APP被App Store中国大陆区下架了。原有已购买这些APP的大陆区ID都也都无法下载或更新它们，需要下载或者使用它们都需要使用非大陆区App Store的ID进行下载（这些ID已购买了相应的APP）。股大量人士手上或多或少都有非大陆区App Store的ID。
+
+## 原因
+问：那么没有非大陆ID的人要如何使用这些APP？
+答：找个已购买了这些APP的美区ID，切换ID进去下载。
+
+## 引发
+小白太多了，脑子不够用，切换账号都不会，咋整？
+内部交流群里的某位大（基）佬给出了一个骚操作：在线安装APP
+emm...这个骚操作已经集成进了面板了，在iOS下的safari打开面板的用户个人中心，在订阅那的iOS就可以看到
+
+## 骚操作
+- 只能在iOS系统下的safari浏览器下才能 在线安装
+- 必须用你自己的已购买了相关APP的非大陆区ID去抓取ipa文件，抓到ipa文件替换到项目目录下的public/clients/xxxx.ipa
+- 更改public/clients/ipa.list文件内的那个ipa的URL
+- 替换完注意更改public/clients文件夹的权限
+
+## 注意
+- ipa.list里的那个ipa的URL必须是https开头，所以，要求你的面板必须上https
+- ipa必须是你用自己的非大陆区抓下来的，面板里自带的是我自己抓的，用不了的
+- 用户在线安装这个ipa后，如果他从未装过这个app，则会提示输入账号密码，账号密码就是你用来抓取ipa的那个非大陆ID
+
+## 抓取IPA
+emm...网上很多教程，自己研究看看？再不会，进小群，有视频教程

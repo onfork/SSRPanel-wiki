@@ -1,8 +1,8 @@
 ## 作者
 - [aiyahacke](https://github.com/aiyahacke)
 
-## 0.先在SSRPanel后台添加一个V2ray节点
-## 1.下载群友封装好的java版控制台
+## 先在SSRPanel后台添加一个V2ray节点
+## 安装控制台
 ```
 cd /root/
 wget https://github.com/aiyahacke/ssrpanel-v2ray/releases/download/0.0.1/ssrpanel-v2ray-0.0.1.zip
@@ -11,7 +11,7 @@ cd ssrpanel-v2ray
 chmod -R a+x ssrpanel-v2ray
 ```
 
-## 2.修改控制台配置
+## 修改控制台配置
 ```
 vim config.properties
 
@@ -28,7 +28,7 @@ vim config.properties
   datasource.password (密码)
 ```
 
-## 3.下载v2ray core
+## 下载v2ray core
 ```
 cd /root/
 wget wget https://github.com/v2ray/v2ray-core/releases/download/v3.49/v2ray-linux-64.zip
@@ -36,12 +36,12 @@ unzip v2ray-linux-64.zip -d v2ray-linux-64
 chmod -R a+x v2ray-linux-64
 ```
 
-## 4.复制配置文件至v2ray-linux-64
+## 复制配置文件至v2ray-linux-64
 ```
 cp /root/ssrpanel-v2ray/config.json /root/v2ray-linux-64/
 ```
 
-## 运行
+## 运行控制台
 ```
 java -jar /root/ssrpanel-v2ray/ssrpanel-v2ray-0.0.1-SNAPSHOT.jar
 ```
@@ -49,3 +49,4 @@ java -jar /root/ssrpanel-v2ray/ssrpanel-v2ray-0.0.1-SNAPSHOT.jar
 ## 问题
  - 如果启动后只有LOGO，没有任何信息，请检查是否执行了 chmod 对两个文件夹都进行了授权了
  - 如果提示配错错误，请检查是否有复制 ssrpanel-v2ray 下的 config.json 到 v2ray-linux-64 下
+ - 如果客户端连不上，检查一下服务器的防火墙是否放行端口

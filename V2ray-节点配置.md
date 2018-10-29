@@ -1,5 +1,5 @@
 ## 作者
-- [aiyahacke](https://github.com/aiyahacke)
+[aiyahacke](https://github.com/aiyahacke)
 
 ## 先在SSRPanel后台添加一个V2ray节点
 ## 安装控制台

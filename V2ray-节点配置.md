@@ -43,7 +43,7 @@ cp /root/ssrpanel-v2ray/config.json /root/v2ray-linux-64/
 
 ## 运行控制台
 ```
-java -jar /root/ssrpanel-v2ray/ssrpanel-v2ray-0.0.1-SNAPSHOT.jar
+java -jar /root/ssrpanel-v2ray/ssrpanel-v2ray-0.0.2-SNAPSHOT.jar
 ```
 
 ## 问题

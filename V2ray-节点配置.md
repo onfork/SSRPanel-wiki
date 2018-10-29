@@ -5,8 +5,8 @@
 ## 安装控制台
 ```
 cd /root/
-wget https://github.com/aiyahacke/ssrpanel-v2ray/releases/download/0.0.1/ssrpanel-v2ray-0.0.1.zip
-unzip ssrpanel-v2ray-0.0.1.zip -d ssrpanel-v2ray
+wget https://github.com/aiyahacke/ssrpanel-v2ray/releases/download/0.0.2/ssrpanel-v2ray-0.0.2.zip
+unzip ssrpanel-v2ray-0.0.2.zip -d ssrpanel-v2ray
 cd ssrpanel-v2ray
 chmod -R a+x ssrpanel-v2ray
 ```

@@ -10,24 +10,6 @@ unzip ssrpanel-v2ray-0.0.2.zip -d ssrpanel-v2ray
 chmod -R a+x ssrpanel-v2ray
 ```
 
-## 修改控制台配置
-```
-cd ssrpanel-v2ray
-vim config.properties
-
-几个重点配置项
-  v2ray.grpc.port (tag为api的传入连接的端口)
-  v2ray.tag (VMess协议的tag)
-  v2ray.alter-id (与面板里设置的额外ID一致)
-  node.id (面板添加节点后得到的节点ID)
-  node.traffic-rate (与面板流量比例一致)
-
-数据库配置(远程连接SSRPanel的数据库)
-  datasource.url (数据库的连接URL, 格式为 jdbc:mysql://地址:端口/数据库名称?serverTimezone=GMT%2B8)
-  datasource.username (用户名)
-  datasource.password (密码)
-```
-
 ## 下载v2ray core
 ```
 cd /root/
@@ -39,6 +21,25 @@ chmod -R a+x v2ray-linux-64
 ## 复制配置文件至v2ray-linux-64
 ```
 cp /root/ssrpanel-v2ray/config.json /root/v2ray-linux-64/
+```
+
+## 修改控制台配置
+```
+cd ssrpanel-v2ray
+vim config.properties
+
+几个重点配置项
+  v2ray.path=/root/v2ray-linux-64 （就是上面那个v2ray core的地址）
+  v2ray.grpc.port (tag为api的传入连接的端口)
+  v2ray.tag (VMess协议的tag)
+  v2ray.alter-id (与面板里设置的额外ID一致)
+  node.id (面板添加节点后得到的节点ID)
+  node.traffic-rate (与面板流量比例一致)
+
+数据库配置(远程连接SSRPanel的数据库)
+  datasource.url (数据库的连接URL, 格式为 jdbc:mysql://地址:端口/数据库名称?serverTimezone=GMT%2B8)
+  datasource.username (用户名)
+  datasource.password (密码)
 ```
 
 ## 运行控制台

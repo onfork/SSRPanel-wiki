@@ -2,6 +2,14 @@
 [aiyahacke](https://github.com/aiyahacke)
 
 ## 先在SSRPanel后台添加一个V2ray节点（端口为10087，因为ssrpanel-v2ray里的config.json里的默认配置是10087）
+## 安装JDK8
+```
+# ubuntu
+sudo apt install openjdk-8-jdk
+# centos
+yum install java-1.8.0-openjdk java-1.8.0-openjdk-devel
+```
+
 ## 安装控制台
 ```
 cd /root/

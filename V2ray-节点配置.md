@@ -44,7 +44,7 @@ vim config.properties
 
 ## 运行控制台
 ```
-java -jar /root/ssrpanel-v2ray/ssrpanel-v2ray-0.0.2-SNAPSHOT.jar
+java -jar /root/ssrpanel-v2ray/ssrpanel-v2ray-0.0.2.jar
 ```
 
 ## 问题

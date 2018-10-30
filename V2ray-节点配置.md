@@ -51,3 +51,7 @@ java -jar /root/ssrpanel-v2ray/ssrpanel-v2ray-0.0.2-SNAPSHOT.jar
  - 如果提示配置错误，请检查是否有复制 ssrpanel-v2ray 下的 config.json 到 v2ray-linux-64 下
  - 如果客户端连不上，检查一下服务器的防火墙是否放行端口
  - 更高级的用法，其实我也不懂（o(╥﹏╥)o）
+
+## 相关
+- [docker issue](https://github.com/ssrpanel/SSRPanel/issues/1050)
+- [docker 教程](https://bfv.tw/index.php/2018/10/30/%E6%90%AD%E5%BB%BA-ssrpanel-v2ray-docker/)

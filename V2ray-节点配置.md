@@ -18,7 +18,7 @@ unzip v2ray-linux-64.zip -d v2ray-linux-64
 chmod -R a+x v2ray-linux-64
 ```
 
-## 复制配置文件至v2ray-linux-64
+## 复制配置文件至v2ray core
 ```
 cp /root/ssrpanel-v2ray/config.json /root/v2ray-linux-64/
 ```

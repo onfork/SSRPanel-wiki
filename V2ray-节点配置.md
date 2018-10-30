@@ -12,6 +12,7 @@ chmod -R a+x ssrpanel-v2ray
 
 ## 修改控制台配置
 ```
+cd ssrpanel-v2ray
 vim config.properties
 
 几个重点配置项

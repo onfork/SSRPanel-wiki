@@ -1,7 +1,7 @@
 ## 作者
 [aiyahacke](https://github.com/aiyahacke)
 
-## 先在SSRPanel后台添加一个V2ray节点
+## 先在SSRPanel后台添加一个V2ray节点（端口为10087，因为ssrpanel-v2ray里的默认配置是10087）
 ## 安装控制台
 ```
 cd /root/

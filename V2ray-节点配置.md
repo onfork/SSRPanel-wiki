@@ -56,12 +56,13 @@ vim config.properties
 
 ## 运行控制台
 ```
-java -jar /root/ssrpanel-v2ray/ssrpanel-v2ray-0.0.2.jar
+cd /root/ssrpanel-v2ray
+java -jar ssrpanel-v2ray-0.0.2.jar
 ```
 
 ## 问题
  - 如果启动后只有LOGO，没有任何信息，请检查是否执行了 chmod 对两个文件夹都进行了授权了
- - 如果提示配置错误，请检查是否有复制 ssrpanel-v2ray 下的 config.json 到 v2ray-linux-64 下
+ - 如果提示配置错误，请检查是否有复制 ssrpanel-v2ray 下的 config.json 到 v2ray-linux-64 下；还有，必须进入到ssrpanel-v2ray目录下执行java -jar ssrpanel-v2ray-0.0.2.jar，不然一样会报配置错误
  - 如果客户端连不上，检查一下服务器的防火墙（SELINUX/IPTABLES/FIREWALLD）是否放行端口
  - 更高级的用法，其实我也不懂（o(╥﹏╥)o）
  - 实测CentOS 6不知道为搭建正常但是无法连接，很诡异；内部群友实测可用：CentOS 7、Debian 9、Ubuntu

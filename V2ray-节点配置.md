@@ -25,7 +25,7 @@ chmod -R a+x ssrpanel-v2ray
 ## 下载v2ray core
 ```
 cd /root/
-wget wget https://github.com/v2ray/v2ray-core/releases/download/v3.49/v2ray-linux-64.zip
+wget https://github.com/v2ray/v2ray-core/releases/download/v3.49/v2ray-linux-64.zip
 unzip v2ray-linux-64.zip -d v2ray-linux-64
 chmod -R a+x v2ray-linux-64
 ```

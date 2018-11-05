@@ -10,6 +10,7 @@
 ## 更新
 进入到SSRPanel项目目录下，执行：`php artisan upgradeUserPassword`
 等待执行结束（中间没有任何提示），要执行过程可以看 storage/logs/laravel-xxx.log 日志
+注意：更新密码后，所有用户的密码跟登录账号一样，比如 admin 账号如果没有改过用户名，则密码也是admin
 
 ## 相关
 https://cmmdwl.com/index.php/ssrpanel-hash-update/

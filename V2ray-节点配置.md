@@ -60,6 +60,9 @@ cd /root/ssrpanel-v2ray
 java -jar ssrpanel-v2ray-0.0.2.jar
 ```
 
+## 注意
+ - V2Ray是很费内存的，同样300个用户和SS(R)相比，SS(R) 512M内存的KVM稳定不炸进程，V2Ray至少的1G内存才够，所以根据你的在线用户数量来，节点的内存推荐在同等用户数下是跑SS(R)服务节点的两倍，最好是都买1G+内存的KVM作为V2Ray节点。
+
 ## 问题
  - 如果启动后只有LOGO，没有任何信息，请检查是否执行了 chmod 对两个文件夹都进行了授权了
  - 如果提示配置错误，请检查是否有复制 ssrpanel-v2ray 下的 config.json 到 v2ray-linux-64 下；还有，必须进入到ssrpanel-v2ray目录下执行java -jar ssrpanel-v2ray-0.0.2.jar，不然一样会报配置错误

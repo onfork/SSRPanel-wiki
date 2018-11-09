@@ -1,4 +1,4 @@
-SSRPanel是基于Laravel框架开发的，Laravel对Redis的支持非常的好，其默认的缓存系统是使用file即文件缓存，读取速度有时候较慢。
+SSRPanel是基于Laravel框架开发的，Laravel对Redis的支持非常的好，其默认的缓存系统是使用file即文件缓存，读取速度有时候较慢（服务器硬盘如果是SSD还好，如果是HDD...）。
 如果想加速网站的打开速度，可以使用Redis，将原本放在磁盘上的file文件里的临时数据放到系统内存里，只需要更改 `/config/cache.php` 里的对应值即可
 
 ## 安装Redis

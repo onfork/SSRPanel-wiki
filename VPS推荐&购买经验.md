@@ -49,6 +49,15 @@ https://www.onevps.com/aff.php?aff=32
 
 https://www.conoha.jp/referral/?token=oT2NevzYDjp1zNWTUnJoRU9DWO7.m81f3q7V.npLEoHq6iRbjzo-XTD
 
+### RFCHOST
+```
+1.中国人运营，业内知名大佬
+2.推荐机房：俄罗斯伯力（经常断货，有货就抢，电信联通移动都超级快，全国ping几乎都是50-80ms）、香港
+3.价格贵，流量少，但是我个人实测二级宽带运营商都能跑的很稳，所以还是推荐一下
+4.都是KVM的，建议购买1G内存以上的机器
+```
+https://my.rfchost.com/aff.php?aff=583
+
 ### HostDare [美国、CN2]
 ```
 1.一定要选CN2线路的KVM系列，比搬瓦工贵一点，但是速度快且稳定，超售没有搬瓦工那么严重

@@ -12,7 +12,6 @@
 [如何进内部交流群](https://github.com/ssrpanel/SSRPanel/wiki/%E6%88%91%E8%A6%81%E8%BF%9B%E5%B0%8F%E7%BE%A4)
 
 ## 演示
-- 企业定制：https://lightnet.ssrpanel.com
 - 自助提号机：https://seller.ssrpanel.com
 - 带RBAC权限控制：https://permission.ssrpanel.com
 - 开源普通版：https://demo.ssrpanel.com

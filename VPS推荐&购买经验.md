@@ -49,6 +49,14 @@ https://www.onevps.com/aff.php?aff=32
 
 https://www.conoha.jp/referral/?token=oT2NevzYDjp1zNWTUnJoRU9DWO7.m81f3q7V.npLEoHq6iRbjzo-XTD
 
+### Bandwagon
+```
+1.良心商家，CN2巨便宜，小白入门首选
+2.可以每10周免费换一次IP
+3.便宜便宜便宜
+```
+https://bandwagonhost.com/aff.php?aff=20075
+
 ### RFCHOST
 ```
 1.中国人运营，业内知名大佬

@@ -8,7 +8,7 @@
 ## 疑难杂症
  - 有问题先自己翻 [Issues](https://github.com/ssrpanel/SSRPanel/issues?q=is%3Aissue+is%3Aclosed) 找不到再提Issues，欢迎开发者提交PR
 
-## 内部交流
+## 交流
 - Telegram订阅频道：[https://t.me/ssrpanel](https://t.me/ssrpanel)
 - [如何进内部交流群](https://github.com/ssrpanel/SSRPanel/wiki/%E6%88%91%E8%A6%81%E8%BF%9B%E5%B0%8F%E7%BE%A4)
 

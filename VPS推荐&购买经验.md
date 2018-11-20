@@ -77,7 +77,7 @@ https://www.conoha.jp/referral/?token=oT2NevzYDjp1zNWTUnJoRU9DWO7.m81f3q7V.npLEo
 3.便宜便宜便宜
 4.推荐只买CN2的KVM系列，如果有看到GIA这三个字的的，赶紧抢吧
 ```
-https://bandwagonhost.com/aff.php?aff=20075
+https://bwh8.net/aff.php?aff=20075
 
 ### RFCHOST
 ```

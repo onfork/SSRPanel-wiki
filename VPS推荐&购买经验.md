@@ -11,23 +11,25 @@
 3.可选的机房多：美国、日本、新加坡、澳大利亚、德国、法国、英国、荷兰
 4.推荐顺序：只推荐美国，优先洛杉矶、硅谷，然后才是其他美国地区
 5.支持微信、支付宝支付
-6.注意：注册得先冲至少10刀才可以买，推荐购买1G+内存的
 ```
+注册得先冲至少10刀才可以买，推荐购买1G+内存的
+
 https://www.vultr.com/?ref=7635574
 
 ### DigitalOcean
 ```
-1.注册进去得先充钱，至少5美金才会给你开通账号（门槛）
+1.注册进去得先充钱，至少5美金才会给你开通账号（有门槛才能拦小白）
 2.注册充钱完，要让你创建一个项目，直接点右上角得人头，点account跳过这一步
 3.可选的机房多：美国、新加坡、德国、英国、荷兰、加拿大、印度
 4.可以自己测速看看哪个适合你：http://speedtest-sfo1.digitalocean.com/
 5.推荐顺序：只推荐美国、加拿大
 6.推荐购买1G+内存的
-注意：用我得邀请链接注册并充值，还会多送你100美金（60天内有效，不用浪费）
 ```
+用我的邀请链接注册并充值，还会多送你100美金（60天内有效，不用浪费）
+
 https://m.do.co/c/a6f2d0fb027e
 
-### Linode
+### Linode[美国、骚操作]
 ````
 1.强烈建议购买Linode【费洛蒙】、【东京】、【新加坡】节点，稳定、延迟低
 2.1G内存VPS也就够用了
@@ -44,7 +46,7 @@ https://www.linode.com/?r=2d4a0088743a2a06e3405514d486b8966c51a439
 
 [Linode安装锐速+SS教程](https://github.com/ssrpanel/SSRPanel/wiki/Linode%EF%BC%88CentOS7%EF%BC%89%E5%AE%89%E8%A3%85%E9%94%90%E9%80%9F-SS)
 
-## OneVPS
+## OneVPS[日本、新加坡]
 ```
 1.油管秒开（比搬瓦工还快），全国ping都是30-80ms，日本机房全国ping都是蓝，堪比阿里云，走IIJ线路
 2.端口说是G口，实测在250M左右，首页上说不限流量，实际上限制10T/月
@@ -57,7 +59,7 @@ https://www.linode.com/?r=2d4a0088743a2a06e3405514d486b8966c51a439
 ```
 https://www.onevps.com/aff.php?aff=32
 
-### ConoHa
+### ConoHa[日本、新加坡]
 ```
 1.注册完得先充值2000日元才能购买VPS
 2.日本本土运营商，相比其他日本本土运营商限制条件几乎等于0
@@ -72,7 +74,7 @@ https://www.onevps.com/aff.php?aff=32
 
 https://www.conoha.jp/referral/?token=oT2NevzYDjp1zNWTUnJoRU9DWO7.m81f3q7V.npLEoHq6iRbjzo-XTD
 
-### Bandwagon
+### Bandwagon[美国、CN2]
 ```
 1.良心商家，CN2巨便宜，小白入门首选
 2.可以每10周免费换一次IP
@@ -81,7 +83,7 @@ https://www.conoha.jp/referral/?token=oT2NevzYDjp1zNWTUnJoRU9DWO7.m81f3q7V.npLEo
 ```
 https://bwh8.net/aff.php?aff=20075
 
-### RFCHOST
+### RFCHOST[俄罗斯伯力]
 ```
 1.中国人运营，业内知名大佬
 2.推荐机房：俄罗斯伯力（经常断货，有货就抢，电信联通移动都超级快，全国ping几乎都是50-80ms）、香港

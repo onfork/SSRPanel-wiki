@@ -47,7 +47,7 @@ https://www.onevps.com/aff.php?aff=32
 通过我的邀请链接注册并充值的，冲2000日元送2000日元
 得消费完才有送！！！
 
-https://www.conoha.jp/referral/?token=oT2NevzYDjp1zNWTUnJoRU9DWO7.m81f3q7V.npLEoHq6iRbjzo-XTD
+
 
 ### Bandwagon[美国、CN2]
 ```
@@ -110,10 +110,11 @@ https://m.do.co/c/a6f2d0fb027e
 ## 注意
 **moguhost（蘑菇主机）千万不能买！！！他们只管卖不管售后，我买了一台韩国VPS测试，邮件发过来的账号密码都是错的，VPS也一直处于offline状态，工单不回，邮件不回。强烈不建议购买！**
 
-#### 其他我玩过的VPS品牌，不推荐
-- anynode 理由：龟速、母鸡不稳定，经常炸鸡
-- hostodo 理由：龟速（CN2的话可以入手，流量有点少）
-- enoctus 理由：刚推出的时候非常好，后面被大量国人小白玩烂了，加上其香港VPS价格便宜，频繁遭到同行攻击，变得极其不稳定（跑路了，之后又回来了）
+#### 其他我玩过的VPS品牌
+- [ConoHa](https://www.conoha.jp/referral/?token=oT2NevzYDjp1zNWTUnJoRU9DWO7.m81f3q7V.npLEoHq6iRbjzo-XTD)
+- anynode 龟速、母鸡不稳定，低配的经常炸鸡，CN2可以入手
+- hostodo 龟速、CN2可以入手
+- enoctus 跑路又回来了
 - aliyun 理由：大陆的限端口限网速可以理解（毕竟国内带宽贵），国外的还限制，这有点不厚道了；速度是不错的，卖流量的可以用用。如果用，一定要卸载安骑士，教程请翻wiki，否则封你机器封你账号没商量
 - securedspeed OVZ，100M小水管（我以前觉得够，现在我觉得不够了，不再推荐了）
 - UltraVPS 只推荐洛杉矶，但是他们家的IP段很神奇，有的走CN2有的走GTT有的走直连，买纯粹得靠运气，不推荐了

@@ -34,20 +34,6 @@ https://www.linode.com/?r=2d4a0088743a2a06e3405514d486b8966c51a439
 ```
 https://www.onevps.com/aff.php?aff=32
 
-### ConoHa[日本、新加坡]
-```
-1.注册完得先充值2000日元才能购买VPS
-2.日本本土运营商，相比其他日本本土运营商限制条件几乎等于0
-3.注册的时候一定要选中华人民共和国，手机号码用你本人的，因为要接收短信验证码（不用紧张，你懂的）
-4.推荐机房：日本（IIJ）、新加坡（ping 50-90ms）
-5.亮点：1.不限流量 2.100M 3.本地10G共享口
-6.价格适中：1G内存的900日元/月（不到60块，跟onevps差不多）
-7.有纯中文界面，可以支付宝直接扫码付款
-```
-通过我的邀请链接注册并充值的，冲2000日元送2000日元
-得消费完才有送！！！
-
-
 
 ### Bandwagon[美国、CN2]
 ```
@@ -76,9 +62,8 @@ https://my.rfchost.com/aff.php?aff=583
 5.2G以上内存有IPV6，校园网可用
 6.支持UDP，可玩游戏
 7.购买顺序：CN2的全部、其他亚洲优化
-8.注册登录进去之后要看左边 有一个show menu，注意看。有货就抢(优先KVM系统)，手速度快，千万别开代理买，会被判欺诈！
-9.优先购买KVM系列，OVZ也是可以的(OVZ的CN2无需加速，速度超屌)，这家比搬瓦工稳定多了，但是经常没货
-10.优先推荐这家是因为，搬瓦工不地道，月付的低价机器都没有了，这家有
+8.注册登录进去之后要看左边 有一个show menu，注意看。
+有货就抢，手速度快，千万别开代理买，会被判欺诈！
 ```
 https://manage.hostdare.com/aff.php?aff=241
 
@@ -111,9 +96,9 @@ https://m.do.co/c/a6f2d0fb027e
 **moguhost（蘑菇主机）千万不能买！！！他们只管卖不管售后，我买了一台韩国VPS测试，邮件发过来的账号密码都是错的，VPS也一直处于offline状态，工单不回，邮件不回。强烈不建议购买！**
 
 #### 其他我玩过的VPS品牌
-- [ConoHa](https://www.conoha.jp/referral/?token=oT2NevzYDjp1zNWTUnJoRU9DWO7.m81f3q7V.npLEoHq6iRbjzo-XTD)
-- anynode 龟速、母鸡不稳定，低配的经常炸鸡，CN2可以入手
-- hostodo 龟速、CN2可以入手
+- [ConoHa](https://www.conoha.jp/referral/?token=oT2NevzYDjp1zNWTUnJoRU9DWO7.m81f3q7V.npLEoHq6iRbjzo-XTD) 推荐机房：日本（IIJ）、新加坡（ping 50-90ms），不限流量
+- anynode 512M内存以下爱的经常炸鸡，CN2可以入手
+- hostodo 512M内存以下爱的经常炸鸡、CN2可以入手
 - enoctus 跑路又回来了
 - aliyun 理由：大陆的限端口限网速可以理解（毕竟国内带宽贵），国外的还限制，这有点不厚道了；速度是不错的，卖流量的可以用用。如果用，一定要卸载安骑士，教程请翻wiki，否则封你机器封你账号没商量
 - securedspeed OVZ，100M小水管（我以前觉得够，现在我觉得不够了，不再推荐了）

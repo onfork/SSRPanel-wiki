@@ -1,4 +1,4 @@
-- 注册需要先交79块的费用，[点这里去注册](https://portal.trimepay.com/#/auth/register/408)
+- 注册完得签约，签约需要先交79块的费用，[点这里去注册](https://portal.trimepay.com/#/auth/register/408)
 - 提现秒到账，目前使用还可以，没有跑单情况
 - 注册后进入 `我的应用` 里创建一个应用，然后点 `签约信息` ，里面有 `AppID` 和 `AppSecret`，填到面板里即可
 - 生成的二维码支持 支付宝 和 微信 扫码付款

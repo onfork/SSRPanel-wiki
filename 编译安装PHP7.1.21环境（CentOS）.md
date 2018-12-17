@@ -187,3 +187,9 @@ vim /usr/local/nginx/conf/vhost/xxx.com.conf
 ```
 /usr/local/nginx/sbin/nginx -s reload
 ```
+
+#### 9.快捷命令
+```
+执行如下命令，即可直接在ssh里执行php命令
+ln -s /usr/local/php7/bin/php /usr/sbin/php
+```

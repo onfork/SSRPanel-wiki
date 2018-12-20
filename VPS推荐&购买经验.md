@@ -16,12 +16,13 @@
 8.强烈推荐，理由：1.可月付（5刀一月非常便宜）、2.同机房的VPS之间流量共享（比如买三台1G内存1T流量的日本机房的VPS,月付5刀/台，等于一个月花15刀有3T流量可用且3个IP，简直不能再划算了）、3.稳定性极佳
 9.icmp ping不准，要用tcpping测试
 10.神操作：如果被墙IP，则只需要把VPS给remove掉，再重新创建一台，又会换一个新IP，不乱扣钱（爽）
+11.所有演示站都挂在这上面
 ````
 https://www.linode.com/?r=2d4a0088743a2a06e3405514d486b8966c51a439
 
 [Linode安装锐速+SS教程](https://github.com/ssrpanel/SSRPanel/wiki/Linode%EF%BC%88CentOS7%EF%BC%89%E5%AE%89%E8%A3%85%E9%94%90%E9%80%9F-SS)
 
-## OneVPS[日本、新加坡]
+## OneVPS[日本、新加坡] 强烈推荐
 ```
 1.油管秒开（比搬瓦工还快），全国ping都是30-80ms，日本机房全国ping都是蓝，堪比阿里云，走IIJ线路
 2.端口说是G口，实测在250M左右，首页上说不限流量，实际上限制10T/月
@@ -33,6 +34,8 @@ https://www.linode.com/?r=2d4a0088743a2a06e3405514d486b8966c51a439
 ```
 - 折扣码：VPSWELCOME 第一个月5折
 - 折扣码：ONEVPS  （第二次续费按原价，建议第一次买个3个月）
+强烈推荐，我个人有一个日本一个新加坡，日本每月跑6T流量，新加坡每月跑3T流量，已经稳定跑了近半年，很稳
+
 https://www.onevps.com/aff.php?aff=32
 
 

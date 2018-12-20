@@ -102,7 +102,7 @@ https://m.do.co/c/a6f2d0fb027e
 
 #### 其他我玩过的VPS品牌
 - [ConoHa](https://www.conoha.jp/referral/?token=oT2NevzYDjp1zNWTUnJoRU9DWO7.m81f3q7V.npLEoHq6iRbjzo-XTD) 推荐机房：日本（IIJ）、新加坡（ping 50-90ms），不限流量
-- anynode 512M内存以下爱的经常炸鸡，CN2可以入手
+- [anynode](https://billing.anynode.net/aff.php?aff=535) 512M内存以下爱的经常炸鸡，CN2可以入手
 - hostodo 512M内存以下爱的经常炸鸡、CN2可以入手
 - enoctus 跑路又回来了
 - aliyun 理由：大陆的限端口限网速可以理解（毕竟国内带宽贵），国外的还限制，这有点不厚道了；速度是不错的，卖流量的可以用用。如果用，一定要卸载安骑士，教程请翻wiki，否则封你机器封你账号没商量

@@ -31,8 +31,8 @@ https://www.linode.com/?r=2d4a0088743a2a06e3405514d486b8966c51a439
 6.只支持paypal
 7.先关闭代理、SS、VPN再打开网站，注册的时候一定要选中国大陆，手机号要选 +86（不然会被判欺诈，小心封号） 然后随便填，省市区地址信息随便填。
 ```
-折扣码：VPSWELCOME 第一个月5折
-折扣码：ONEVPS  （第二次续费按原价，建议第一次买个3个月）
+- 折扣码：VPSWELCOME 第一个月5折
+- 折扣码：ONEVPS  （第二次续费按原价，建议第一次买个3个月）
 https://www.onevps.com/aff.php?aff=32
 
 

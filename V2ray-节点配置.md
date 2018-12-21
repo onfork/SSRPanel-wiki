@@ -4,7 +4,7 @@
 
 ## 添加节点
 先在SSRPanel后台添加一个V2ray节点
-（端口为10087，因为ssrpanel-v2ray里的config.json里的默认配置是10087）
+（端口为9999，因为ssrpanel-v2ray里的config.json里的默认配置是9999）
 
 ## 安装JDK8
 ```
@@ -17,47 +17,52 @@ yum install java-1.8.0-openjdk java-1.8.0-openjdk-devel
 ## 安装控制台
 ```
 cd /root/
-wget https://github.com/aiyahacke/ssrpanel-v2ray/releases/download/0.0.2/ssrpanel-v2ray-0.0.2.zip
-unzip ssrpanel-v2ray-0.0.2.zip -d ssrpanel-v2ray
+wget https://github.com/aiyahacke/ssrpanel-v2ray/releases/download/0.0.3/ssrpanel-v2ray-0.0.3.zip
+unzip ssrpanel-v2ray-0.0.3.zip -d ssrpanel-v2ray
 chmod -R a+x ssrpanel-v2ray
 ```
 
-## 下载v2ray core
-```
-cd /root/
-wget https://github.com/v2ray/v2ray-core/releases/download/v3.49/v2ray-linux-64.zip
-unzip v2ray-linux-64.zip -d v2ray-linux-64
-chmod -R a+x v2ray-linux-64
-```
+## 配置SSRPanel后台
 
-## 复制配置文件至v2ray core
-```
-cp /root/ssrpanel-v2ray/config.json /root/v2ray-linux-64/
-```
+添加节点  
+基础信息按实际情况填写  
+扩展信息的服务类型选择V2ray  
 
-## 修改控制台配置
-```
-cd ssrpanel-v2ray
-vim config.properties
+基础选项:  
+- 额外ID (alterId)  
+- 端口 (VMess协议的端口)
+  
+高级选项(不懂就不要动下面几个选项):  
+- 传输协议  
+- 伪装类型  
+- 伪装域名  
+- WS/H2路径  
+- TLS  
+
+## 配置节点端
+
+在 releases 页面下载编译版
+修改 config.properties
 
 几个重点配置项
-  v2ray.path=/root/v2ray-linux-64 （就是上面那个v2ray core的地址）
-  v2ray.grpc.port (tag为api的传入连接的端口)
-  v2ray.tag (VMess协议的tag)
-  v2ray.alter-id (与面板里设置的额外ID一致)
-  node.id (面板添加节点后得到的节点ID)
-  node.traffic-rate (与面板流量比例一致)
+- v2ray.system (操作系统，可选linux和windows，v0.0.3以上)
+- v2ray.arch (操作系统位数，可选32和64，v0.0.3以上)
+- ~~v2ray.grpc.port (tag为api的传入连接的端口)~~ (v0.0.3以上自动获取)
+- v2ray.tag (VMess协议的tag)
+- v2ray.alter-id (与面板额外ID一致)
+- node.id (面板添加节点后得到的节点ID)
+- node.traffic-rate (与面板流量比例一致)
 
 数据库配置(远程连接SSRPanel的数据库)
-  datasource.url (数据库的连接URL, 格式为 jdbc:mysql://地址:端口/数据库名称?serverTimezone=GMT%2B8)
-  datasource.username (用户名)
-  datasource.password (密码)
+- datasource.url (数据库的连接URL, 格式为 jdbc:mysql://地址:端口/数据库名称?serverTimezone=GMT%2B8)
+- datasource.username (用户名)
+- datasource.password (密码)
 ```
 
 ## 运行控制台
 ```
 cd /root/ssrpanel-v2ray
-java -jar ssrpanel-v2ray-0.0.2.jar
+java -jar ssrpanel-v2ray-0.0.3.jar
 ```
 
 ## 注意

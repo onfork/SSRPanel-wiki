@@ -40,7 +40,7 @@ chmod -R a+x ssrpanel-v2ray
 - TLS  
 
 ## 配置节点端
-
+```
 在 releases 页面下载编译版
 修改 config.properties
 
@@ -75,6 +75,7 @@ java -jar ssrpanel-v2ray-0.0.3.jar
  - 如果客户端连不上，检查一下服务器的防火墙（SELINUX/IPTABLES/FIREWALLD）是否放行端口
  - 更高级的用法，其实我也不懂（o(╥﹏╥)o）
  - 实测CentOS 6不知道为搭建正常但是无法连接，很诡异；内部群友实测可用：CentOS 7、Debian 9、Ubuntu
+ - 如果发现时间不对，请先将服务器的时区改为CST
 ## 相关
 - [docker issue](https://github.com/ssrpanel/SSRPanel/issues/1050)
 - [docker 教程](https://bfv.tw/index.php/2018/10/30/%E6%90%AD%E5%BB%BA-ssrpanel-v2ray-docker/)

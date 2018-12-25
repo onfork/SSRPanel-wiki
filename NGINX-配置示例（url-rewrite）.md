@@ -1,3 +1,4 @@
+## NGINX
 推荐使用LNMP傻瓜化添加虚拟机 `lnmp vhsot add`
 
 ```
@@ -36,4 +37,9 @@ server
 	access_log  /home/wwwlogs/demo.ssrpanel.com_access.log;
 	error_log  /home/wwwlogs/demo.ssrpanel.com_error.log;
 }
+```
+
+## 宝塔
+```
+找到网站-设置-伪静态，值设置为laravel5
 ```

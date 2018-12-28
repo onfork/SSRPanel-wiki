@@ -2,7 +2,7 @@
 - [aiyahacke](https://github.com/aiyahacke)
 - [项目详情](https://github.com/aiyahacke/ssrpanel-v2ray)
 
-## 配置SSRPanel后台
+## 配置SSRPanel
 #### 添加节点
 先在后台添加一个V2ray节点
 （端口为9999，因为ssrpanel-v2ray里的config.json里的默认配置是9999）

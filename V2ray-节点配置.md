@@ -29,13 +29,13 @@ cd ssrpanel-v2ray
 修改 config.properties 文件
 
 几个重点配置项
-- v2ray.system (操作系统，可选linux和windows，v0.0.3以上)
-- v2ray.arch (操作系统位数，可选32和64，v0.0.3以上)
-- ~~v2ray.grpc.port (tag为api的传入连接的端口)~~ (v0.0.3以上自动获取)
+- v2ray.system (操作系统，可选值：linux、windows)
+- v2ray.arch (操作系统位数，可选值：32、64)
 - v2ray.tag (VMess协议的tag)
-- v2ray.alter-id (与面板额外ID一致)
+- v2ray.alter-id (与面板里设定的额外ID一致)
+- v2ray.level (用户等级，暂无用)
 - node.id (面板添加节点后得到的节点ID)
-- node.traffic-rate (与面板流量比例一致)
+- node.traffic-rate (与面板里设定的流量比例一致)
 
 数据库配置(远程连接SSRPanel的数据库)
 - datasource.url (数据库的连接URL, 格式为 jdbc:mysql://地址:端口/数据库名称?serverTimezone=GMT%2B8)
@@ -46,6 +46,30 @@ cd ssrpanel-v2ray
 ## 运行控制台
 ```
 java -jar ssrpanel-v2ray-0.0.3-jar-with-dependencies.jar
+```
+
+## 效果
+```
+[root@node2 ssrpanel-v2ray]# java -jar ssrpanel-v2ray-0.0.3-jar-with-dependencies.jar
+  __  __ _           _           _   _      _
+ |  \/  (_)___  __ _| | ____ _  | \ | | ___| |_
+ | |\/| | / __|/ _` | |/ / _` | |  \| |/ _ \ __|
+ | |  | | \__ \ (_| |   < (_| | | |\  |  __/ |_
+ |_|  |_|_|___/\__,_|_|\_\__,_| |_| \_|\___|\__|
+
+2018/12/28 01:07:56 [INFO] cn.moegezi.v2ray.node.process.V2rayUpdate: 开始检测V2Ray更新  
+2018/12/28 01:07:58 [INFO] cn.moegezi.v2ray.node.process.V2rayUpdate: 检测到新版本V2Ray: v4.9.0  
+2018/12/28 01:07:58 [INFO] cn.moegezi.v2ray.node.process.V2rayUpdate: 开始下载: https://github.com/v2ray/v2ray-core/releases/download/v4.9.0/v2ray-linux-64.zip  
+Downloading [==============================] 100%
+2018/12/28 01:08:00 [INFO] cn.moegezi.v2ray.node.process.V2rayUpdate: 开始解压: v2ray-linux-64.zip  
+2018/12/28 01:08:01 [INFO] cn.moegezi.v2ray.node.process.V2rayUpdate: V2Ray已更新至 v4.9.0  
+V2Ray 4.9.0 (Po) 20181212
+A unified platform for anti-censorship.
+2018/12/28 01:08:02 [INFO] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...  
+2018/12/28 01:08:05 [INFO] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.  
+2018/12/28 01:08:05 [INFO] cn.moegezi.v2ray.node.process.V2rayDao: 更新在线用户数: NUMBER 0  
+2018/12/28 01:08:05 [INFO] cn.moegezi.v2ray.node.process.V2rayDao: 更新节点负载信息: LOAD 0.23 0.07 0.06  
+2018/12/28 01:08:12 [INFO] cn.moegezi.v2ray.node.process.V2rayGrpc: 更新用户: ADD 420 REMOVE 0
 ```
 
 ## 注意

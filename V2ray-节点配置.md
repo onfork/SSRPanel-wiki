@@ -2,11 +2,13 @@
 - [aiyahacke](https://github.com/aiyahacke)
 - [项目详情](https://github.com/aiyahacke/ssrpanel-v2ray)
 
-## 添加节点
-先在SSRPanel后台添加一个V2ray节点
+## 配置SSRPanel后台
+#### 添加节点
+先在后台添加一个V2ray节点
 （端口为9999，因为ssrpanel-v2ray里的config.json里的默认配置是9999）
 
-## 安装JDK8
+## 配置节点端
+#### 安装JDK8
 ```
 # ubuntu
 sudo apt install openjdk-8-jdk
@@ -14,35 +16,17 @@ sudo apt install openjdk-8-jdk
 yum install java-1.8.0-openjdk java-1.8.0-openjdk-devel
 ```
 
-## 安装控制台
+#### 安装控制台
 ```
 cd /root/
 wget https://github.com/aiyahacke/ssrpanel-v2ray/releases/download/0.0.3/ssrpanel-v2ray-0.0.3.zip
 unzip ssrpanel-v2ray-0.0.3.zip -d ssrpanel-v2ray
 chmod -R a+x ssrpanel-v2ray
+cd ssrpanel-v2ray
 ```
 
-## 配置SSRPanel后台
-
-添加节点  
-基础信息按实际情况填写  
-扩展信息的服务类型选择V2ray  
-
-基础选项:  
-- 额外ID (alterId)  
-- 端口 (VMess协议的端口)
-  
-高级选项(不懂就不要动下面几个选项):  
-- 传输协议  
-- 伪装类型  
-- 伪装域名  
-- WS/H2路径  
-- TLS  
-
-## 配置节点端
 ```
-在 releases 页面下载编译版
-修改 config.properties
+修改 config.properties 文件
 
 几个重点配置项
 - v2ray.system (操作系统，可选linux和windows，v0.0.3以上)
@@ -61,8 +45,7 @@ chmod -R a+x ssrpanel-v2ray
 
 ## 运行控制台
 ```
-cd /root/ssrpanel-v2ray
-java -jar ssrpanel-v2ray-0.0.3.jar
+java -jar ssrpanel-v2ray-0.0.3-jar-with-dependencies.jar
 ```
 
 ## 注意
@@ -71,11 +54,11 @@ java -jar ssrpanel-v2ray-0.0.3.jar
 
 ## 问题
  - 如果启动后只有LOGO，没有任何信息，请检查是否执行了 chmod 对两个文件夹都进行了授权了
- - 如果提示配置错误，请检查是否有复制 ssrpanel-v2ray 下的 config.json 到 v2ray-linux-64 下；还有，必须进入到ssrpanel-v2ray目录下执行java -jar ssrpanel-v2ray-0.0.2.jar，不然一样会报配置错误
+ - 必须进入到ssrpanel-v2ray目录下执行java -jar ssrpanel-v2ray-0.0.3-jar-with-dependencies.jar，不然一样会报配置错误
  - 如果客户端连不上，检查一下服务器的防火墙（SELINUX/IPTABLES/FIREWALLD）是否放行端口
- - 更高级的用法，其实我也不懂（o(╥﹏╥)o）
+ - 更高级的用法，其实我也不懂，去问作者吧，作者也在内部群（o(╥﹏╥)o）
  - 实测CentOS 6不知道为搭建正常但是无法连接，很诡异；内部群友实测可用：CentOS 7、Debian 9、Ubuntu
- - 如果发现时间不对，请先将服务器的时区改为CST
+ - 务必请先将服务器的时区改为CST
 ## 相关
 - [docker issue](https://github.com/ssrpanel/SSRPanel/issues/1050)
 - [docker 教程](https://bfv.tw/index.php/2018/10/30/%E6%90%AD%E5%BB%BA-ssrpanel-v2ray-docker/)

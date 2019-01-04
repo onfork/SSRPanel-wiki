@@ -187,3 +187,4 @@ bash deploy_node.sh
 - [JAVA version install doc](https://github.com/aiyahacke/ssrpanel-v2ray)
 - [Go version install doc](https://github.com/ssrpanel/SSRPanel/issues/1222)
 - [Go v2ray-ssrpanel-plugin](https://github.com/ColetteContreras/v2ray-ssrpanel-plugin)
+- [V2Ray接入面板踩过的坑整理](http://sobaigu.com/ssrpanel-v2ray-go.html)

@@ -184,6 +184,6 @@ bash deploy_node.sh
 ## 相关
 - [docker issue](https://github.com/ssrpanel/SSRPanel/issues/1050)
 - [docker 教程](https://bfv.tw/index.php/2018/10/30/%E6%90%AD%E5%BB%BA-ssrpanel-v2ray-docker/)
-- [JAVA install doc](https://github.com/aiyahacke/ssrpanel-v2ray)
-- [Go install doc](https://github.com/ssrpanel/SSRPanel/issues/1222)
+- [JAVA version install doc](https://github.com/aiyahacke/ssrpanel-v2ray)
+- [Go version install doc](https://github.com/ssrpanel/SSRPanel/issues/1222)
 - [Go v2ray-ssrpanel-plugin](https://github.com/ColetteContreras/v2ray-ssrpanel-plugin)

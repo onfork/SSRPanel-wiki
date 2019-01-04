@@ -174,7 +174,7 @@ curl -L -s https://raw.githubusercontent.com/ColetteContreras/v2ray-ssrpanel-plu
 }
 ```
 
-###### 一键包
+## GO版一键包
 - 作者：[阿拉凹凸曼](https://github.com/828768)
 ```
 wget https://raw.githubusercontent.com/828768/Shell/master/deploy_node.sh
@@ -184,3 +184,6 @@ bash deploy_node.sh
 ## 相关
 - [docker issue](https://github.com/ssrpanel/SSRPanel/issues/1050)
 - [docker 教程](https://bfv.tw/index.php/2018/10/30/%E6%90%AD%E5%BB%BA-ssrpanel-v2ray-docker/)
+- [JAVA install doc](https://github.com/aiyahacke/ssrpanel-v2ray)
+- [Go install doc](https://github.com/ssrpanel/SSRPanel/issues/1222)
+- [Go v2ray-ssrpanel-plugin](https://github.com/ColetteContreras/v2ray-ssrpanel-plugin)

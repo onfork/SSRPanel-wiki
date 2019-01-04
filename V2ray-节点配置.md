@@ -181,6 +181,8 @@ bash deploy_node.sh
  - V2Ray是很费内存的，同样300个用户和SS(R)相比，512M内存的KVM跑SS(R)服务稳定不炸进程，而V2Ray则会炸进程，所以V2Ray至少得1G内存才够。当然根据你的在线用户数量来，V2Ray节点的内存推荐是SS(R)节点内存的两倍。
  - [VPS推荐&购买经验](https://github.com/ssrpanel/SSRPanel/wiki/VPS%E6%8E%A8%E8%8D%90&%E8%B4%AD%E4%B9%B0%E7%BB%8F%E9%AA%8C)
 
+## 加速
+ - V2Ray不推荐使用锐速，推荐使用 [魔改BBR](https://github.com/cx9208/bbrplus)
 ## 相关
 - [docker issue](https://github.com/ssrpanel/SSRPanel/issues/1050)
 - [docker 教程](https://bfv.tw/index.php/2018/10/30/%E6%90%AD%E5%BB%BA-ssrpanel-v2ray-docker/)

@@ -71,10 +71,6 @@ A unified platform for anti-censorship.
 2018/12/28 01:08:12 [INFO] cn.moegezi.v2ray.node.process.V2rayGrpc: 更新用户: ADD 420 REMOVE 0
 ```
 
-#### 注意
- - V2Ray是很费内存的，同样300个用户和SS(R)相比，512M内存的KVM跑SS(R)服务稳定不炸进程，而V2Ray则会炸进程，所以V2Ray至少得1G内存才够。当然根据你的在线用户数量来，V2Ray节点的内存推荐是SS(R)节点内存的两倍。
- - [VPS推荐&购买经验](https://github.com/ssrpanel/SSRPanel/wiki/VPS%E6%8E%A8%E8%8D%90&%E8%B4%AD%E4%B9%B0%E7%BB%8F%E9%AA%8C)
-
 #### 问题
  - 如果启动后只有LOGO，没有任何信息，请检查是否执行了 chmod 对两个文件夹都进行了授权了
  - 必须进入到ssrpanel-v2ray目录下执行java -jar ssrpanel-v2ray-0.0.3-jar-with-dependencies.jar，不然一样会报配置错误
@@ -180,6 +176,10 @@ curl -L -s https://raw.githubusercontent.com/ColetteContreras/v2ray-ssrpanel-plu
 wget https://raw.githubusercontent.com/828768/Shell/master/deploy_node.sh
 bash deploy_node.sh
 ```
+
+## 注意
+ - V2Ray是很费内存的，同样300个用户和SS(R)相比，512M内存的KVM跑SS(R)服务稳定不炸进程，而V2Ray则会炸进程，所以V2Ray至少得1G内存才够。当然根据你的在线用户数量来，V2Ray节点的内存推荐是SS(R)节点内存的两倍。
+ - [VPS推荐&购买经验](https://github.com/ssrpanel/SSRPanel/wiki/VPS%E6%8E%A8%E8%8D%90&%E8%B4%AD%E4%B9%B0%E7%BB%8F%E9%AA%8C)
 
 ## 相关
 - [docker issue](https://github.com/ssrpanel/SSRPanel/issues/1050)

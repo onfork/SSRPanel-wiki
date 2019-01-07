@@ -178,7 +178,7 @@ bash deploy_node.sh
 ```
 
 ## 注意
- - 服务端和客户端之间的时间差必须保持在30秒内，因为VMess协议在认证时有带入时间，尽量时间上的保持一致
+ - 服务端和客户端之间的时间差必须保持在90秒内，因为VMess协议在认证时有带入时间，尽量时间上的保持一致
  - V2Ray是很费内存的，同样300个用户和SS(R)相比，512M内存的KVM跑SS(R)服务稳定不炸进程，而V2Ray则会炸进程，所以V2Ray至少得1G内存才够。当然根据你的在线用户数量来，V2Ray节点的内存推荐是SS(R)节点内存的两倍。
  - [VPS推荐&购买经验](https://github.com/ssrpanel/SSRPanel/wiki/VPS%E6%8E%A8%E8%8D%90&%E8%B4%AD%E4%B9%B0%E7%BB%8F%E9%AA%8C)
 
@@ -192,3 +192,4 @@ bash deploy_node.sh
 - [Go v2ray-ssrpanel-plugin](https://github.com/ColetteContreras/v2ray-ssrpanel-plugin)
 - [V2Ray接入面板踩过的坑整理](http://sobaigu.com/ssrpanel-v2ray-go.html)
 - [V2Ray配置（TCP）](https://github.com/ColetteContreras/v2ray-ssrpanel-plugin/issues/9)
+- [V2Ray 注意系统时间](https://www.v2ray.com/chapter_02/protocols/vmess.html)

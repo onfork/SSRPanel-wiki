@@ -15,7 +15,7 @@ ntpdate -u time.nist.gov
 curl -L -s https://raw.githubusercontent.com/ColetteContreras/v2ray-ssrpanel-plugin/master/install-release.sh | sudo bash
 ```
 #### 配置V2Ray
-`vim /etc/v2ray/config.json` 然后将如下配置黏贴进去并保存
+`vim /etc/v2ray/config.json` 然后将如下配置黏贴进去，修改，然后`删除所有//开头的注释`并保存
 ```
 {
   "log": {
@@ -85,11 +85,11 @@ curl -L -s https://raw.githubusercontent.com/ColetteContreras/v2ray-ssrpanel-plu
       "security": "none"
     },
     "mysql": {
-      "host": "数据库所在地址，建议填IP",
+      "host": "144.33.X.X", //数据库所在地址，建议填IP
       "port": 3306,
-      "user": "数据库连接账号",
-      "password": "数据库连接密码",
-      "dbname": "数据库"
+      "user": "ssrpanel", //数据库连接账号
+      "password": "password", //数据库连接密码
+      "dbname": "ssrpanel" //数据库名称
     }
   }
 }

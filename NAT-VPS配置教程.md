@@ -19,5 +19,8 @@
 - 3.除了给你的小鸡映射SSH端口，还要给其各映射一个同端口号的TCP和一个UDP的端口，用于SSR单端口（具体教程：[点击这里](https://github.com/ssrpanel/SSRPanel/wiki/%E5%8D%95%E7%AB%AF%E5%8F%A3%E5%A4%9A%E7%94%A8%E6%88%B7%E7%9A%84%E5%9D%91)）
 - 4.SSR单端口必须打开严格模式
 
+## DDNS脚本
+- [namesilo](https://github.com/ssrpanel/ddns)
+
 ## 疑问
 如果不会正确食用，请先谷歌一下，再不行进小群咨询

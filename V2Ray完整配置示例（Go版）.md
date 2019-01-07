@@ -15,8 +15,8 @@ ntpdate -u time.nist.gov
 curl -L -s https://raw.githubusercontent.com/ColetteContreras/v2ray-ssrpanel-plugin/master/install-release.sh | sudo bash
 ```
 #### 配置V2Ray
+`vim /etc/v2ray/config.json` 然后将如下配置黏贴进去并保存
 ```
-[root@node2 ~]# cat /etc/v2ray/config.json 
 {
   "log": {
     "loglevel": "debug"

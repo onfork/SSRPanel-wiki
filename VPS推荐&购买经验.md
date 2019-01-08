@@ -87,7 +87,7 @@ https://m.do.co/c/a6f2d0fb027e
 
 
 #### 其他我玩过的VPS品牌
-- [Vultr](https://www.vultr.com/?ref=7635574)
+- [Vultr](https://www.vultr.com/?ref=7635574) 推荐硅谷、洛杉矶、加拿大
 - [ConoHa](https://www.conoha.jp/referral/?token=oT2NevzYDjp1zNWTUnJoRU9DWO7.m81f3q7V.npLEoHq6iRbjzo-XTD) 推荐机房：日本（IIJ）、新加坡（ping 50-90ms），不限流量
 - [anynode](https://billing.anynode.net/aff.php?aff=535) 512M内存以下爱的经常炸鸡，CN2可以入手
 - hostodo 512M内存以下爱的经常炸鸡、CN2可以入手

@@ -14,5 +14,5 @@
 
 ## 演示
 - 自助提号机：https://seller.ssrpanel.com
-- 带权限控制：https://permission.ssrpanel.com
+- 完整版（带权限控制）：https://permission.ssrpanel.com
 - 开源普通版：https://demo.ssrpanel.com

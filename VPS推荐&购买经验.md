@@ -72,18 +72,6 @@ https://my.rfchost.com/aff.php?aff=583
 ```
 https://manage.hostdare.com/aff.php?aff=241
 
-### Vultr
-```
-1.第一家只卖IPv6的厂商，只要2.5刀/月（折腾一下可以的，正常用还是推荐不要买这种没有IPv4的）
-2.可以上传自定义的ISO文件（很强大，只有大厂才有这种功能，比如阿里云、腾讯云、AWS）
-3.可选的机房多：美国、日本、新加坡、澳大利亚、德国、法国、英国、荷兰
-4.推荐顺序：只推荐美国，优先洛杉矶、硅谷，然后才是其他美国地区（ping 150-170ms）
-5.支持微信、支付宝支付
-```
-注册得先冲至少10刀才可以买，推荐购买1G+内存的
-
-https://www.vultr.com/?ref=7635574
-
 ### DigitalOcean
 ```
 1.注册进去得先充钱，至少5美金才会给你开通账号（有门槛才能拦小白）
@@ -101,6 +89,7 @@ https://m.do.co/c/a6f2d0fb027e
 **moguhost（蘑菇主机）千万不能买！！！他们只管卖不管售后，我买了一台韩国VPS测试，邮件发过来的账号密码都是错的，VPS也一直处于offline状态，工单不回，邮件不回。强烈不建议购买！**
 
 #### 其他我玩过的VPS品牌
+- [Vultr](https://www.vultr.com/?ref=7635574)
 - [ConoHa](https://www.conoha.jp/referral/?token=oT2NevzYDjp1zNWTUnJoRU9DWO7.m81f3q7V.npLEoHq6iRbjzo-XTD) 推荐机房：日本（IIJ）、新加坡（ping 50-90ms），不限流量
 - [anynode](https://billing.anynode.net/aff.php?aff=535) 512M内存以下爱的经常炸鸡，CN2可以入手
 - hostodo 512M内存以下爱的经常炸鸡、CN2可以入手
@@ -108,3 +97,4 @@ https://m.do.co/c/a6f2d0fb027e
 - aliyun 理由：大陆的限端口限网速可以理解（毕竟国内带宽贵），国外的还限制，这有点不厚道了；速度是不错的，卖流量的可以用用。如果用，一定要卸载安骑士，教程请翻wiki，否则封你机器封你账号没商量
 - securedspeed OVZ，100M小水管（我以前觉得够，现在我觉得不够了，不再推荐了）
 - UltraVPS 只推荐洛杉矶，但是他们家的IP段很神奇，有的走CN2有的走GTT有的走直连，买纯粹得靠运气，不推荐了
+- ~~蘑菇主机(moguhost)~~

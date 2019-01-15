@@ -37,7 +37,7 @@ https://www.linode.com/?r=2d4a0088743a2a06e3405514d486b8966c51a439
 
 强烈推荐这家，我个人有一个日本一个新加坡，日本每月跑6T流量，新加坡每月跑3T流量，已经稳定跑了近半年，很稳
 
-https://www.onevps.com/aff.php?aff=32
+https://www.onevps.com/portal/aff.php?aff=32
 
 
 ### Bandwagon[美国、CN2]

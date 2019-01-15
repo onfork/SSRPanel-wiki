@@ -82,8 +82,8 @@ https://m.do.co/c/a6f2d0fb027e
 - [HostDare](https://manage.hostdare.com/aff.php?aff=241) 口碑较好，挂面板首选，推荐CN2的KVM
 - [RFCHOST](https://my.rfchost.com/aff.php?aff=583) 俄罗斯伯力、美国GIA、香港，他家卖的都可以买，只是经常没货且略贵，但是非常的稳定
 - [Vultr](https://www.vultr.com/?ref=7635574) 推荐硅谷、洛杉矶、加拿大
-- [ConoHa](https://www.conoha.jp/referral/?token=oT2NevzYDjp1zNWTUnJoRU9DWO7.m81f3q7V.npLEoHq6iRbjzo-XTD) 推荐机房：日本（IIJ）、新加坡（ping 50-90ms），不限流量
 - [anynode](https://billing.anynode.net/aff.php?aff=535) 512M内存以下爱的经常炸鸡，CN2可以入手
+- ConoHa 推荐机房：日本（IIJ）、新加坡（ping 50-90ms），不限流量
 - hostodo 512M内存以下爱的经常炸鸡、CN2可以入手
 - enoctus 跑路又回来了
 - aliyun 理由：大陆的限端口限网速可以理解（毕竟国内带宽贵），国外的还限制，这有点不厚道了；速度是不错的，卖流量的可以用用。如果用，一定要卸载安骑士，教程请翻wiki，否则封你机器封你账号没商量；阿里云国际可以的，只不是得美国或者日本的身份注册，买阿里云国际日本，走的softbank线路，非常的屌，仅推荐使用朋友身份去注册账号，其他途径注册账号即便购买了，也很容易被封

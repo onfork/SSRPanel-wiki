@@ -50,6 +50,7 @@ https://www.onevps.com/portal/aff.php?aff=32
 3.便宜便宜便宜
 4.推荐只买CN2系列，推荐GIA用来挂面板，快的很
 5.GIA线路是目前级别最高的CN2
+6.注意：`Location`优先顺序：DC9 -> DC8 -> DC3 -> 其他
 ```
 #### 统一优惠码：BWH26FXH3HIQ
 #### 只放面板和数据库，速度飞快（不要安装任何代理）

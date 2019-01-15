@@ -45,9 +45,19 @@ https://www.onevps.com/portal/aff.php?aff=32
 1.良心商家，CN2巨便宜，小白入门首选
 2.可以每10周免费换一次IP
 3.便宜便宜便宜
-4.推荐只买CN2的KVM系列，如果有看到GIA这三个字的的，赶紧抢吧
+4.推荐只买CN2系列，推荐GIA用来挂面板，快的很
+5.GIA线路是目前级别最高的CN2
 ```
-https://bwh8.net/aff.php?aff=20075
+- 统一优惠码：BWH26FXH3HIQ
+- 只放面板和数据库，速度飞快（不要安装任何代理）
+[1G内存GIA](https://bwh8.net/aff.php?aff=20075&pid=72) 1T流量/月 （推荐）
+[2G内存GIA](https://bwh8.net/aff.php?aff=20075&pid=73) 2T流量/月
+
+- 节点用
+[512M内存CN2](https://bwh8.net/aff.php?aff=20075&pid=56) 500G流量/月 （推荐）
+[1G内存CN2](https://bwh8.net/aff.php?aff=20075&pid=57) 1T流量/月 （推荐）
+[2G内存CN2](https://bwh8.net/aff.php?aff=20075&pid=58) 2T流量/月 （推荐）
+[4G内存CN2](https://bwh8.net/aff.php?aff=20075&pid=59) 3T流量/月
 
 ### RFCHOST[俄罗斯伯力]
 ```

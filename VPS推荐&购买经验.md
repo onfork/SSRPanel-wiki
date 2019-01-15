@@ -22,6 +22,8 @@ https://www.linode.com/?r=2d4a0088743a2a06e3405514d486b8966c51a439
 
 [Linode安装锐速+SS教程](https://github.com/ssrpanel/SSRPanel/wiki/Linode%EF%BC%88CentOS7%EF%BC%89%E5%AE%89%E8%A3%85%E9%94%90%E9%80%9F-SS)
 
+--------------
+
 ## OneVPS[日本、新加坡] 强烈推荐
 ```
 1.油管秒开（比搬瓦工还快），全国ping都是30-80ms，日本机房全国ping都是蓝，堪比阿里云，走IIJ线路
@@ -39,6 +41,7 @@ https://www.linode.com/?r=2d4a0088743a2a06e3405514d486b8966c51a439
 
 https://www.onevps.com/portal/aff.php?aff=32
 
+--------------
 
 ### Bandwagon[美国、CN2]
 ```
@@ -59,14 +62,19 @@ https://www.onevps.com/portal/aff.php?aff=32
 - [2G内存CN2](https://bwh8.net/aff.php?aff=20075&pid=58) 2T流量/月 （推荐）
 - [4G内存CN2](https://bwh8.net/aff.php?aff=20075&pid=59) 3T流量/月
 
+--------------
+
 ### RFCHOST[俄罗斯伯力]
 ```
 1.中国人运营，业内知名大佬
 2.推荐机房：俄罗斯伯力（经常断货，有货就抢，电信联通移动都超级快，全国ping几乎都是50-80ms）、香港
 3.价格贵，流量少，但是我个人实测二级宽带运营商都能跑的很稳，所以还是推荐一下
 4.都是KVM的，建议购买1G内存以上的机器
+5.北方地区推荐延迟低，推荐入手
 ```
 https://my.rfchost.com/aff.php?aff=583
+
+--------------
 
 ### HostDare [美国、CN2]
 ```
@@ -81,6 +89,8 @@ https://my.rfchost.com/aff.php?aff=583
 有货就抢，手速度快，千万别开代理买，会被判欺诈！
 ```
 https://manage.hostdare.com/aff.php?aff=241
+
+--------------
 
 ### DigitalOcean
 ```

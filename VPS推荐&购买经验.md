@@ -34,10 +34,8 @@ https://www.linode.com/?r=2d4a0088743a2a06e3405514d486b8966c51a439
 6.只支持paypal
 7.先关闭代理、SS、VPN再打开网站，注册的时候一定要选中国大陆，手机号要选 +86（不然会被判欺诈，小心封号） 然后随便填，省市区地址信息随便填。
 ```
-- 折扣码：VPSWELCOME 第一个月5折（续费按原价，实测是买一年的直接就5折了）
+- 折扣码：VPSWELCOME 第一个月5折（续费按原价，`实测是买一年的直接就5折了`）
 - 折扣码：ONEVPS  （续费按原价，建议第一次买个3个月）
-
-强烈推荐这家，我个人有一个日本一个新加坡，日本每月跑6T流量，新加坡每月跑3T流量，已经稳定跑了近半年，很稳
 
 https://www.onevps.com/portal/aff.php?aff=32
 
@@ -65,34 +63,6 @@ https://www.onevps.com/portal/aff.php?aff=32
 
 --------------
 
-### RFCHOST[俄罗斯伯力]
-```
-1.中国人运营，业内知名大佬
-2.推荐机房：俄罗斯伯力（经常断货，有货就抢，电信联通移动都超级快，全国ping几乎都是50-80ms）、香港
-3.价格贵，流量少，但是我个人实测二级宽带运营商都能跑的很稳，所以还是推荐一下
-4.都是KVM的，建议购买1G内存以上的机器
-5.北方地区推荐延迟低，推荐入手
-```
-https://my.rfchost.com/aff.php?aff=583
-
---------------
-
-### HostDare [美国、CN2]
-```
-1.一定要选CN2线路的KVM系列，比搬瓦工贵一点，但是速度快且稳定，超售没有搬瓦工那么严重
-2.有中文界面，购买简单（微信、支付宝）
-3.ping值低于200ms，油管白天稳定4K晚上2K
-4.联通宽带强烈推荐
-5.2G以上内存有IPV6，校园网可用
-6.支持UDP，可玩游戏
-7.购买顺序：CN2的全部、其他亚洲优化
-8.注册登录进去之后要看左边 有一个show menu，注意看。
-有货就抢，手速度快，千万别开代理买，会被判欺诈！
-```
-https://manage.hostdare.com/aff.php?aff=241
-
---------------
-
 ### DigitalOcean
 ```
 1.注册进去得先充钱，至少5美金才会给你开通账号（有门槛才能拦小白）
@@ -109,6 +79,8 @@ https://m.do.co/c/a6f2d0fb027e
 --------------
 
 #### 其他我玩过的VPS品牌
+- [HostDare](https://manage.hostdare.com/aff.php?aff=241) 口碑较好，挂面板首选，推荐CN2的KVM
+- [RFCHOST](https://my.rfchost.com/aff.php?aff=583) 俄罗斯伯力、美国GIA、香港，他家卖的都可以买，只是经常没货且略贵，但是非常的稳定
 - [Vultr](https://www.vultr.com/?ref=7635574) 推荐硅谷、洛杉矶、加拿大
 - [ConoHa](https://www.conoha.jp/referral/?token=oT2NevzYDjp1zNWTUnJoRU9DWO7.m81f3q7V.npLEoHq6iRbjzo-XTD) 推荐机房：日本（IIJ）、新加坡（ping 50-90ms），不限流量
 - [anynode](https://billing.anynode.net/aff.php?aff=535) 512M内存以下爱的经常炸鸡，CN2可以入手

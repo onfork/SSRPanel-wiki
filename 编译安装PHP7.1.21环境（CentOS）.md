@@ -146,6 +146,7 @@ vim /usr/local/php7/etc/php-fpm.conf
 pid = /usr/local/php7/var/run/php-fpm.pid
 error_log = /usr/local/php7/var/log/php-fpm.log
 log_level = notice
+daemonize = yes
 
 [www]
 listen = /tmp/php7-cgi.sock

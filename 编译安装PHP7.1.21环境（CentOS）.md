@@ -149,14 +149,14 @@ log_level = notice
 daemonize = yes
 
 [www]
+user = www
+group = www
 listen = /tmp/php7-cgi.sock
-listen.backlog = -1
-listen.allowed_clients = 127.0.0.1
 listen.owner = www
 listen.group = www
 listen.mode = 0666
-user = www
-group = www
+listen.allowed_clients = 127.0.0.1
+listen.backlog = -1
 pm = dynamic
 pm.max_children = 50
 pm.start_servers = 5

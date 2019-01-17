@@ -53,8 +53,8 @@ https://www.onevps.com/portal/aff.php?aff=32
 ```
 #### 统一优惠码：BWH26FXH3HIQ
 #### CN2 GIA 只放面板和数据库，速度飞快（不要安装任何代理），这个当节点太奢侈
-- [1G内存GIA](https://bwh8.net/aff.php?aff=20075&pid=72) 1T流量/月 （不开站推荐）
-- [2G内存GIA](https://bwh8.net/aff.php?aff=20075&pid=73) 2T流量/月 （开站推荐）
+- [1G内存GIA](https://bwh8.net/aff.php?aff=20075&pid=72) 1T流量/月 （推荐）
+- [2G内存GIA](https://bwh8.net/aff.php?aff=20075&pid=73) 2T流量/月 （推荐）
 
 #### CN2 节点用 可放面板数据库也可以当节点
 - [512M内存CN2](https://bwh8.net/aff.php?aff=20075&pid=56) 500G流量/月 （推荐）

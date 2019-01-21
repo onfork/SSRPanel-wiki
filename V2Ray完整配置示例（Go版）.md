@@ -97,10 +97,22 @@ curl -L -s https://raw.githubusercontent.com/ColetteContreras/v2ray-ssrpanel-plu
 }
 ```
 
-##### 运行
+##### 测试运行
 ```
 /usr/bin/v2ray/v2ray -config /etc/v2ray/config.json
 ```
 
 #### 客户端配置
 [![2.png](https://i.loli.net/2019/01/07/5c3343be6fd4a.png)](https://i.loli.net/2019/01/07/5c3343be6fd4a.png)
+
+##### 后台运行
+```
+touch v2ray_logrun.sh
+vim v2ray_logrun.sh
+
+黏贴如下
+
+nohup /usr/bin/v2ray/v2ray -config /etc/v2ray/config.json >> v2ray_run.log 2>&1 &
+
+保存并执行： chmod a+x v2ray_logrun.sh && sh v2ray_logrun.sh
+```

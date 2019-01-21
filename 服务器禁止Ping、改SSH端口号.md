@@ -35,3 +35,9 @@ sed -i "s/#Port 22/Port 新端口/g" /etc/ssh/sshd_config
 yum -y install policycoreutils-python
 semanage port -a -t ssh_port_t -p tcp 新端口
 ```
+
+#### 修改系统密码
+```
+sudo passwd root
+输入两边密码即可
+```

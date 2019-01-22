@@ -50,22 +50,14 @@ INFO 2019-01-20 12:09:40 server.go[21] main: cpu core: 1
 ```
 
 ## 运行
-- 执行 `./vnet_linux_amd64`
+- 执行 `./vnet_linux_amd64` ，看到如下一堆端口启动，说明已经跑起来了
 
 ```
-INFO 2019-01-20 12:05:26 db.go[173] func1: start port [7380]
-INFO 2019-01-20 12:05:26 shadowsocks.go[94] ConfigLimitHuman: server port: 7380 limit is: 20480000
-INFO 2019-01-20 12:05:26 shadowsocks.go[110] ConfigTimeout: 0.0.0.0:7380 timeout:3s
-INFO 2019-01-20 12:05:26 shadowsocks.go[163] startTCP: listening TCP on 0.0.0.0:7380
-INFO 2019-01-20 12:05:26 shadowsocks.go[337] startUDP: listening UDP on 0.0.0.0:7380
-INFO 2019-01-20 12:05:26 db.go[173] func1: start port [7168]
-INFO 2019-01-20 12:05:26 shadowsocks.go[94] ConfigLimitHuman: server port: 7168 limit is: 20480000
-INFO 2019-01-20 12:05:26 shadowsocks.go[110] ConfigTimeout: 0.0.0.0:7168 timeout:3s
-INFO 2019-01-20 12:05:26 shadowsocks.go[163] startTCP: listening TCP on 0.0.0.0:7168
-INFO 2019-01-20 12:05:26 shadowsocks.go[337] startUDP: listening UDP on 0.0.0.0:7168
-INFO 2019-01-20 12:05:26 db.go[173] func1: start port [7227]
-INFO 2019-01-20 12:05:26 shadowsocks.go[94] ConfigLimitHuman: server port: 7227 limit is: 20480000
-INFO 2019-01-20 12:05:26 shadowsocks.go[110] ConfigTimeout: 0.0.0.0:7227 timeout:3s
-INFO 2019-01-20 12:05:26 shadowsocks.go[163] startTCP: listening TCP on 0.0.0.0:7227
-INFO 2019-01-20 12:05:26 shadowsocks.go[337] startUDP: listening UDP on 0.0.0.0:7227
+INFO 2019-01-22 08:58:36 db.go[256] DBServiceMonitor: start port [7589]
+INFO 2019-01-22 08:58:36 db.go[256] DBServiceMonitor: start port [7935]
+INFO 2019-01-22 08:58:36 db.go[256] DBServiceMonitor: start port [7235]
+INFO 2019-01-22 08:58:36 db.go[256] DBServiceMonitor: start port [7262]
+INFO 2019-01-22 08:58:36 db.go[256] DBServiceMonitor: start port [7026]
+INFO 2019-01-22 08:58:36 db.go[256] DBServiceMonitor: start port [7131]
+INFO 2019-01-22 08:58:36 db.go[256] DBServiceMonitor: start port [7996]
 ```

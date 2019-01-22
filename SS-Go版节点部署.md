@@ -4,6 +4,7 @@
 - 下载安装对应的版本，授权并安装，安装时会提示输入连接信息，完成后自动生成配置文件，位于同目录下，名为 `config.json`
 
 ```
+wget https://github.com/rc452860/vnet/releases/download/v0.0.4/vnet_linux_amd64
 chmod a+x vnet_linux_amd64
 ./vnet_linux_amd64
 

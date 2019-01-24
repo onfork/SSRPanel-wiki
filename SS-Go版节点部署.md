@@ -34,13 +34,14 @@ INFO 2019-01-20 12:09:40 server.go[21] main: cpu core: 1
     "mode": "db",
     "dbconfig": {
         "host": "127.0.0.1",
-        "user": "root",
-        "passwd": "root",
+        "user": "ssrpanel",
+        "passwd": "ssrpanel",
         "port": "3306",
         "database": "ssrpanel",
         "rate": 1,
         "NodeId": 1,
-        "SyncTime": 3000000000
+        "SyncTime": 3000,
+        "OnlineSyncTime": 60000
     },
     "shadowsocks_options": {
         "tcp_timeout": 0,

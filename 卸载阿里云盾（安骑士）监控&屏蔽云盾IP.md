@@ -44,3 +44,6 @@ iptables -I INPUT -s 140.205.225.204/32 -j DROP
 ## 参照
 https://www.alibabacloud.com/help/zh/doc-detail/31777.htm
 https://blog.whe.me/post/uninstall-aliyun-monitoring.html
+
+## 这有个人把整片文章搬过去，竟然也不署名一下，哎
+https://blog.liyuans.com/archives/uninstall-ali-cloud-shield-monitoring.html

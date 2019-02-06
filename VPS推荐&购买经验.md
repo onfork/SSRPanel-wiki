@@ -44,7 +44,7 @@ https://www.onevps.com/portal/aff.php?aff=32
 ### Bandwagon[美国、CN2]
 ```
 1.良心商家，CN2巨便宜，小白入门首选
-2.可以每10周免费换一次IP
+2.可以每5周免费换一次IP
 3.便宜便宜便宜
 4.推荐只买CN2系列，推荐GIA用来挂面板，快的很
 5.GIA线路是目前级别最高的CN2

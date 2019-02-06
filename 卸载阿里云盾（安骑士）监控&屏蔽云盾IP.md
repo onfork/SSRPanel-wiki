@@ -41,10 +41,13 @@ iptables -I INPUT -s 140.205.225.195/32 -j DROP
 iptables -I INPUT -s 140.205.225.204/32 -j DROP
 ```
 
+## AliVulfix（2019/2/6补）
+其实还有一个AliVulfix，哼哼，不放出来，文章被抄袭了
+
 ## 参照
 https://www.alibabacloud.com/help/zh/doc-detail/31777.htm
 
 https://blog.whe.me/post/uninstall-aliyun-monitoring.html
 
-## 这有个人把整片文章搬过去，竟然也不标注一下来源，哎，人品
+## 这有个人把整片文章搬过去，竟然也不标注一下来源，哎RP啊
 https://blog.liyuans.com/archives/uninstall-ali-cloud-shield-monitoring.html

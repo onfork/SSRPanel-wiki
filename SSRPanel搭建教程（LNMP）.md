@@ -99,6 +99,12 @@ crontab -e -u www
 ],
 ````
 
+#### 使用队列处理邮件
+```
+执行命令：
+php artisan queue:work database --queue=default --timeout=60 --sleep=3 --tries=3
+```
+
 ###### 发邮件失败处理
 ````
 出现 Connection could not be established with host smtp.exmail.qq.com [Connection timed out #110] 这样的错误

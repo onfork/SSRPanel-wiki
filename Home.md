@@ -4,7 +4,7 @@
  - 看一下我推荐的VPS，我踩过的坑绝对比你多的多，能推荐的绝对不会太差，至少适合入门
  - 订阅Telegram订阅频道获取最新消息
  - 本WIKI内所有代码都是基于CentOS，不一定适用于Ubuntu、Debian
- - 因为CentOS官方已经不维护CentOS 6.x，所以除非特别提及，否则这也全部基于CentOS 7.x
+ - 全套基于CentOS7环境，因为CentOS官方已经不再维护CentOS6
 
 ## 疑难杂症
  - 有问题先自己翻 [Issues](https://github.com/ssrpanel/SSRPanel/issues?q=is%3Aissue+is%3Aclosed) 找不到再提Issues，欢迎提交PR

@@ -3,7 +3,7 @@
 2.通过守护进程自动更新网卡流量到本地数据库文件
 
 ## 一键安装脚本（推荐）
-wget -N --no-check-certificate https://raw.githubusercontent.com/ssrpanel/ssrpanel/master/server/deploy_vnstat.sh;chmod +x deploy_vnstat.sh;./deploy_vnstat.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/ssrpanel/SSRPanel/master/scripts/vnstat.sh;chmod +x deploy_vnstat.sh;./deploy_vnstat.sh
 
 
 ## 示例

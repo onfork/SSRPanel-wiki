@@ -13,8 +13,6 @@
 
 注意：更新密码后，所有用户的密码跟登录账号一样，比如 admin 账号如果没有改过用户名，则密码也是admin
 
-## 相关
-https://cmmdwl.com/index.php/ssrpanel-hash-update/
 
 ## 不想升级
 如果你不想使用新版本，还要继续使用md5那种加密方式，这个版本包是最后一个稳定版本

@@ -33,7 +33,7 @@ chown -R www:www ssrpanel
 chmod -R a+x ssrpanel
 ````
 
-## 定时任务
+#### 定时任务
 ````
 crontab加入如下命令（请自行修改php、ssrpanel路径）：
 * * * * * php /home/wwwroot/ssrpanel/artisan schedule:run >> /dev/null 2>&1

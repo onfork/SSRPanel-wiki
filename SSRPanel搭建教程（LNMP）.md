@@ -1,42 +1,12 @@
+## 安装
 #### 环境要求
 ````
-PHP 7.1 （必须）
-MYSQL 5.5 （推荐5.6+）
-内存 1G+ 
+PHP 7.1.3+ （必须）
+MYSQL 5.5+ （推荐5.6）
+内存 1G+ (推荐2G)
 磁盘空间 10G+
 PHP必须开启zip、xml、curl、gd2、fileinfo、openssl、mbstring组件
 安装完成后记得编辑.env中 APP_DEBUG 改为 false
-````
-
-#### 拉取代码
-````
-cd /home/wwwroot/
-git clone https://github.com/ssrpanel/ssrpanel.git
-````
-
-#### 配置数据库
-````
-1.创建一个utf8mb4的数据库
-2.编辑 .env 文件，修改 DB_ 开头的值
-3.导入 sql/db.sql 到数据库
-````
-
-#### 安装面板
-````
-cd ssrpanel/
-cp .env.example .env
-（然后 vi .env 修改数据库的连接信息）
-php composer.phar install
-php artisan key:generate
-chown -R www:www storage/
-chmod -R 755 storage/
-````
-
-#### 加入NGINX的URL重写规则
-````
-location / {
-    try_files $uri $uri/ /index.php$is_args$args;
-}
 ````
 
 #### 编辑php.ini
@@ -48,25 +18,19 @@ vim /usr/local/php/etc/php.ini
 删除proc_开头的所有函数
 ````
 
-#### 出现500错误
+#### NGINX 加入URL重写规则
 ````
-理论上操作到上面那些步骤完了应该是可以正常访问网站了，如果网站出现500错误，请看WIKI，很有可能是fastcgi的错误
-请看WIKI：https://github.com/ssrpanel/ssrpanel/wiki/%E5%87%BA%E7%8E%B0-open_basedir%E9%94%99%E8%AF%AF
-修改完记得重启NGINX和PHP-FPM
-````
-
-#### 密码错误
-````
-如果正确安装完成后发现admin无法登陆，请到SSRPanel目录下执行如下命令：
-php artisan upgradeUserPassword
-
-admin的密码将被改为admin
+location / {
+    try_files $uri $uri/ /index.php$is_args$args;
+}
 ````
 
-#### 重启NGINX和PHP-FPM
+#### 拉取代码
 ````
-service nginx restart
-service php-fpm restart
+cd /home/wwwroot/
+git clone https://github.com/ssrpanel/ssrpanel.git ssrpanel
+chown -R www:www ssrpanel
+chmod -R a+x ssrpanel
 ````
 
 ## 定时任务
@@ -79,31 +43,25 @@ crontab加入如下命令（请自行修改php、ssrpanel路径）：
 crontab -e -u www
 ````
 
-## 邮件配置
-###### SMTP
+#### 数据库
+1.创建一个utf8mb4的数据库
+
+#### 安装
+面板从V4.7.3开始带有自动安装功能，请直接访问网址即可
+
+
+
+#### 邮件配置
+###### 使用SMTP发信
 ````
 编辑 .env 文件，修改 MAIL_ 开头的配置
 ````
 
-###### 使用Mailgun发邮件
-````
-编辑 .env 文件
-将 MAIL_DRIVER 值改为 mailgun
+###### 使用Mailgun发信
+[点这里](https://github.com/ssrpanel/SSRPanel/wiki/%E4%BD%BF%E7%94%A8Mailgun%E5%8F%91%E9%80%81%E9%82%AE%E4%BB%B6)
 
-然后编辑 config/services.php
-
-请自行配置如下内容
-'mailgun' => [
-    'domain' => 'mailgun发件域名',
-    'secret' => 'mailgun上申请到的secret',
-],
-````
-
-#### 使用队列处理邮件
-```
-执行命令：
-php artisan queue:work database --queue=default --timeout=60 --sleep=3 --tries=3
-```
+###### 使用队列处理邮件
+从V4.7.2开始邮件全部走队列处理，所以必须在面板根目录下执行一次 `sh queue.sh`，而且每次重启系统后都需要执行，否则发不出邮件
 
 ###### 发邮件失败处理
 ````
@@ -128,8 +86,9 @@ chown www:www ssserver.log
 
 ## IP库
 ```
-本项目使用的是纯真IP库，如果需要更新IP库文件，请上纯真官网把qqwry.dat下载并覆盖至 storage/qqwrt.dat 文件
-项目里还自带了IPIP的IP库，但是未使用，有开发能力的请自行测试。
+本项目使用的是纯真IPv4库，文件位于 storage/qqwrt.dat ；
+同时也使用IPIP的免费IPv4库，文件位于 storage/ipip.ipdb
+原理：纯真查到的是非大陆的IP则会用IPIP再去查一遍具体国家，因为纯真带有运营商信息（来自IPIP的手动尴尬脸）
 ```
 
 ## HTTPS
@@ -137,10 +96,10 @@ chown www:www ssserver.log
 将 .env 文件里的 REDIRECT_HTTPS 值改为true，则全站强制走https
 ```
 
-## SSR(R)部署
+## 后端部署
 ###### 手动部署
 
-- 无上报IP版本：
+- 无上报IP版本（推荐）：
 ````
 wget https://github.com/ssrpanel/shadowsocksr/archive/V3.2.2.tar.gz
 tar zxvf V3.2.2.tar.gz
@@ -149,7 +108,7 @@ sh ./setup_cymysql2.sh
 配置 usermysql.json 里的数据库链接，NODE_ID就是节点ID，对应面板后台里添加的节点的自增ID，所以请先把面板搭好，搭好后进后台添加节点
 ````
 
-- 会上报在线IP版本：
+- 会上报在线IP版本（不推荐）：
 ```
 https://github.com/ssrpanel/shadowsocksr
 ```
@@ -209,9 +168,6 @@ vim user-config.json
 进入到SSRPanel目录下
 1.手动更新： git pull
 2.强制更新： sh ./update.sh 
-
-如果你更改了本地文件，手动更新会提示错误需要合并代码（自己搞定），强制更新会直接覆盖你本地所有更改过的文件
-如果更新完代码各种错误，请先执行一遍 php composer.phar install
 ````
 
 ## 校时
@@ -232,7 +188,7 @@ ntpdate cn.pool.ntp.org
 
 ## 二开规范
 ````
-如果有小伙伴要基于本程序进行二次开发，自行定制，请谨记一下规则（欢迎提PR，我会免费拉你入小群的）
+如果有小伙伴要基于本程序进行二次开发，自行定制，请谨记一下规则（欢迎提PR，我会免费拉你入内部群的）
 1.数据库表字段请务必使用蟒蛇法，严禁使用驼峰法
 2.写完代码最好格式化，该空格一定要空格，该注释一定要注释，便于他人阅读代码
 3.本项目中ajax返回格式都是 {"status":"fail 或者 success", "data":[数据], "message":"文本消息提示语"}

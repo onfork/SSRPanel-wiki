@@ -83,7 +83,7 @@ https://m.do.co/c/a6f2d0fb027e
 --------------
 
 #### 其他我玩过的VPS品牌
-- [HostDare](https://manage.hostdare.com/aff.php?aff=241) 口碑较好，挂面板首选，推荐CN2的KVM
+- [HostDare](https://manage.hostdare.com/aff.php?aff=241) 口碑较好，推荐CN2的KVM（18年底19年初出现过丢失数据情况）
 - [RFCHOST](https://my.rfchost.com/aff.php?aff=583) 俄罗斯伯力、美国GIA、香港，他家卖的都可以买，只是经常没货且略贵，但是非常的稳定
 - [Vultr](https://www.vultr.com/?ref=7635574) 推荐硅谷、洛杉矶、加拿大
 - [anynode](https://billing.anynode.net/aff.php?aff=535) 512M内存以下爱的经常炸鸡，CN2可以入手

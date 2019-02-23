@@ -42,6 +42,7 @@ crontab加入如下命令（请自行修改php、ssrpanel路径）：
 例如用lnmp的话默认权限用户组是 www:www，则添加定时任务是这样的：
 crontab -e -u www
 ````
+用宝塔的请[点这里](https://github.com/ssrpanel/SSRPanel/wiki/%E4%BD%BF%E7%94%A8%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1%E4%B8%8D%E6%89%A7%E8%A1%8C%E9%97%AE%E9%A2%98%E5%A4%84%E7%90%86)看一下
 
 #### 数据库
 上面都配置完了，就可以创建一个utf8mb4的数据库，面板从V4.7.3开始带有自动安装功能，无需再手动导入数据库，所以请直接访问网址即可

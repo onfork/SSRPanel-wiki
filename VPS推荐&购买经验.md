@@ -62,7 +62,7 @@ https://www.onevps.com/portal/aff.php?aff=32
 #### CN2 节点用 可放面板数据库也可以当节点
 - [512M内存CN2](https://bwh8.net/aff.php?aff=20075&pid=56) 500G流量/月 （推荐）
 - [1G内存CN2](https://bwh8.net/aff.php?aff=20075&pid=57) 1T流量/月 （推荐）（不开站推荐）
-- [2G内存CN2](https://bwh8.net/aff.php?aff=20075&pid=58) 2T流量/月 （推荐）（开站推荐）
+- [2G内存CN2](https://bwh8.net/aff.php?aff=20075&pid=58) 2T流量/月 （推荐）（开站推荐，我自己就是用这个）
 - [4G内存CN2](https://bwh8.net/aff.php?aff=20075&pid=59) 3T流量/月
 
 --------------

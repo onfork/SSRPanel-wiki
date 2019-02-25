@@ -38,7 +38,7 @@ https://www.linode.com/?r=2d4a0088743a2a06e3405514d486b8966c51a439
 9.因为走的IIJ，所以移动和联通都超级好，电信白天也好，就是晚上延迟会较高（日本除了CN2 和 softbank基本都这样）
 ```
 - 折扣码：VPSWELCOME 第一个月5折（续费按原价，`实测是买一年的直接就5折了，而且不仅限新用户，老用户也可以用，建议买年付512M 的日本一台`）
-- 折扣码：ONEVPS  （续费按原价，建议第一次买个3个月）
+- 折扣码：ONEVPS
 
 https://www.onevps.com/portal/aff.php?aff=32
 

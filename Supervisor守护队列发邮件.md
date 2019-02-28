@@ -37,3 +37,6 @@ startsecs=5 #自动重启间隔，单位秒
 `supervisorctl start|stop program_name` #启动/停止服务，program_name为项目名
 `supervisorctl status` #查看所有任务状态
 `supervisorctl shutdown` #关闭所有任务
+
+## 相关
+[issues](https://github.com/ssrpanel/SSRPanel/issues/1411)

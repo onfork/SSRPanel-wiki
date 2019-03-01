@@ -55,17 +55,11 @@ https://www.onevps.com/portal/aff.php?aff=32
 7.我个人自用的面板和数据库都放在搬瓦工上，用的下面那个2G CN2的，开网站的话建议入手2G CN2 GIA
 ```
 #### 统一优惠码：BWH26FXH3HIQ
-#### CN2 GIA 可放面板和数据库也可以当节点，速度飞快（建议只放面板和数据库，不要安装任何代理）
-- [1G内存GIA](https://bwh88.net/aff.php?aff=20075&pid=72) 1T流量/月 （推荐）
-- [2G内存GIA](https://bwh88.net/aff.php?aff=20075&pid=73) 2T流量/月 （推荐）
-
-#### 2.5G口的GIA
+#### CN2 GIA 可放面板、数据库也可以当节点，速度飞快
 - [1G内存GIA](https://bwh88.net/aff.php?aff=20075&pid=87) 1T流量/月 （推荐）
 - [2G内存GIA](https://bwh88.net/aff.php?aff=20075&pid=88) 2T流量/月 （推荐）
 
-#### CN2 节点用 可放面板数据库也可以当节点
-- [512M内存CN2](https://bwh88.net/aff.php?aff=20075&pid=56) 500G流量/月 （推荐）
-- [1G内存CN2](https://bwh88.net/aff.php?aff=20075&pid=57) 1T流量/月 （推荐）（不开站推荐）
+#### 普通 CN2 节点用，也可放面板、数据库
 - [2G内存CN2](https://bwh88.net/aff.php?aff=20075&pid=58) 2T流量/月 （推荐）（开站推荐，我自己就是用这个）
 - [4G内存CN2](https://bwh88.net/aff.php?aff=20075&pid=59) 3T流量/月
 

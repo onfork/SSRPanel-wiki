@@ -18,3 +18,6 @@
 - 提号机：https://seller.ssrpanel.com
 - 完整版：https://permission.ssrpanel.com
 - 开源版：https://demo.ssrpanel.com
+
+## 宝塔
+- 推荐使用[宝塔](https://www.bt.cn/?invite_code=MV9rZWF0dWY=)，老司机省时省力，小白入门轻松

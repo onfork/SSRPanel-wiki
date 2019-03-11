@@ -8,7 +8,7 @@
 - 下载安装对应的版本，授权并安装，安装时会提示输入连接信息，完成后自动生成配置文件，位于同目录下，名为 `config.json`
 
 ```
-wget https://github.com/rc452860/vnet/releases/download/v0.0.4/vnet_linux_amd64
+wget https://github.com/rc452860/vnet/releases/download/v0.0.5/vnet_linux_amd64
 chmod a+x vnet_linux_amd64
 ./vnet_linux_amd64
 
@@ -44,7 +44,7 @@ INFO 2019-01-20 12:09:40 server.go[21] main: cpu core: 1
         "database": "ssrpanel",
         "rate": 1,
         "NodeId": 1,
-        "SyncTime": 3000,
+        "SyncTime": 60000,
         "OnlineSyncTime": 60000
     },
     "shadowsocks_options": {

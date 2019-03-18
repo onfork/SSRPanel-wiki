@@ -44,7 +44,7 @@ https://www.onevps.com/portal/aff.php?aff=32
 
 --------------
 
-### kdatacenter[韩国，速度超级快]
+### kdatacenter[韩国，速度超级快]强烈推荐
 ```
 1.速度超级快
 2.IP段非常的安全，墙几乎不来扫他们家的段，真的很牛逼

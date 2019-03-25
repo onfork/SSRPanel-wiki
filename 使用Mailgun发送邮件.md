@@ -7,9 +7,9 @@
 - 将 `MAIL_FROM_NAME` 值改为 `你的发信人名称，例如：SSRPanel`
 
 #### mailgun配置如下项：
-- 1.将 `MAIL_DRIVER` 值改为 `mailgun`
-- 2.将 `MAILGUN_DOMAIN` 值改为 `mailgun给你分配的 domain 值`
-- 3.将 `MAILGUN_SECRET` 值改为 `mailgun给你分配的 secret 值`
+- 将 `MAIL_DRIVER` 值改为 `mailgun`
+- 将 `MAILGUN_DOMAIN` 值改为 `mailgun给你分配的 domain 值`
+- 将 `MAILGUN_SECRET` 值改为 `mailgun给你分配的 secret 值`
 
 #### SMTP、sendmail发信配置如下项：
 - MAIL_HOST=smtp.exmail.qq.com

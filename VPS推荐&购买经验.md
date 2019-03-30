@@ -22,7 +22,7 @@
 ````
 https://www.linode.com/?r=2d4a0088743a2a06e3405514d486b8966c51a439
 
-[Linode安装锐速+SS教程](https://github.com/ssrpanel/SSRPanel/wiki/Linode%EF%BC%88CentOS7%EF%BC%89%E5%AE%89%E8%A3%85%E9%94%90%E9%80%9F-SS)
+[Linode安装锐速+原版SS教程](https://github.com/ssrpanel/SSRPanel/wiki/Linode%EF%BC%88CentOS7%EF%BC%89%E5%AE%89%E8%A3%85%E9%94%90%E9%80%9F-SS)
 
 --------------
 

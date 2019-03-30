@@ -64,17 +64,18 @@ https://www.kdatacenter.com/myportal/?affid=550
 1.良心商家，CN2巨便宜，小白入门首选
 2.可以每5周免费换一次IP
 3.便宜便宜便宜
-4.推荐只买CN2系列，推荐GIA用来挂面板，快的很
+4.推荐只买CN2系列，推荐CN2 GIA用来放面板和数据库（如果放在同一台VPS上，建议2G内存），快的很
 5.GIA线路是目前级别最高的CN2
-6.注意：Location（也就是机房）优先顺序：GIA(DC6) -> DC9 -> DC8 -> DC3 -> 其他
-7.我个人自用的面板和数据库都放在搬瓦工上，用的下面那个2G CN2的，开网站的话建议入手2G CN2 GIA
+6.我个人自用的面板和数据库都放在搬瓦工上，用的下面那个2G CN2的，开网站的话建议入手2G CN2 GIA
 ```
 #### 统一优惠码：BWH26FXH3HIQ
 #### CN2 GIA 可放面板、数据库也可以当节点，速度飞快
 - [1G内存GIA](https://bwh88.net/aff.php?aff=20075&pid=87) 1T流量/月 （推荐）
 - [2G内存GIA](https://bwh88.net/aff.php?aff=20075&pid=88) 2T流量/月 （推荐）
+- [4G内存GIA]() 
 
 #### 普通 CN2 节点用，也可放面板、数据库
+- [1G内存CN2](https://bwh88.net/aff.php?aff=20075&pid=57) 1T流量/月 （节点用推荐）
 - [2G内存CN2](https://bwh88.net/aff.php?aff=20075&pid=58) 2T流量/月 （推荐）（开站推荐，我自己就是用这个）
 - [4G内存CN2](https://bwh88.net/aff.php?aff=20075&pid=59) 3T流量/月
 

@@ -75,7 +75,7 @@ https://www.kdatacenter.com/myportal/?affid=550
 #### CN2 GIA 可放面板、数据库也可以当节点，速度飞快
 - [1G内存GIA](https://bwh88.net/aff.php?aff=20075&pid=87) 1T流量/月 （推荐）
 - [2G内存GIA](https://bwh88.net/aff.php?aff=20075&pid=88) 2T流量/月 （推荐）
-- [4G内存GIA](https://bwh88.net/aff.php?aff=20075&pid=89) 2T流量/月 （如果你的活跃用户超过了2K，推荐入手，或者企业级应用也推荐）
+- [4G内存GIA](https://bwh88.net/aff.php?aff=20075&pid=89) 3T流量/月 （如果你的活跃用户超过了2K，推荐入手，或者企业级应用也推荐）
 
 #### 普通 CN2 节点用，也可放面板、数据库
 - [1G内存CN2](https://bwh88.net/aff.php?aff=20075&pid=57) 1T流量/月 （节点用推荐）

@@ -42,6 +42,7 @@ https://www.linode.com/?r=2d4a0088743a2a06e3405514d486b8966c51a439
 ```
 - 建议买年付的日本
 - 75折的折扣码：`25off-zhujiceping`
+- 首月5折码：`VPSWELCOME`
 
 https://www.onevps.com/portal/aff.php?aff=32
 

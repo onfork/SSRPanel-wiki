@@ -106,7 +106,7 @@ https://m.do.co/c/a6f2d0fb027e
 #### 其他我玩过的VPS品牌
 - [HostDare](https://manage.hostdare.com/aff.php?aff=241) 口碑较好，推荐CN2的KVM（18年底19年初出现过丢失数据情况）
 - [RFCHOST](https://my.rfchost.com/aff.php?aff=583) 俄罗斯伯力、美国GIA、香港，他家卖的都可以买，只是经常没货且略贵，但是非常的稳定
-- [Vultr](https://www.vultr.com/?ref=7031862)  推荐硅谷、洛杉矶、加拿大 , [点这里，先充25美金，再送你25美金](https://www.vultr.com/?ref=7946582-4F)
+- [Vultr](https://www.vultr.com/?ref=7031862)  推荐硅谷、洛杉矶、加拿大 , [点这里，充25美金送25美金,充50美金送50美金](https://www.vultr.com/?ref=7946582-4F)
 - [anynode](https://billing.anynode.net/aff.php?aff=535) 512M内存以下爱的经常炸鸡，CN2可以入手
 - 阿里云国际 注意，是国际不是大陆区，阿里云国际香港站、日本站都可以，香港站最便宜月付9美金（1G内存、1T流量、30M口），好处是全程CN2，晚高峰都可以打游戏，购买条件高，需要香港Paypal、香港手机号，具体教程在内部群里；日本站条件严苛，全部都得日本当地实名认证，基本搞不定。
 - ConoHa 推荐机房：日本（IIJ）、新加坡（ping 50-90ms），不限流量

@@ -57,6 +57,7 @@ https://www.onevps.com/portal/aff.php?aff=32
 5.在线客服跟ONEVPS一样牛逼
 ```
 https://digital-vm.com/portal/aff.php?aff=1
+- 一次性6折折扣码：`VMNEW` 强烈建议买半年或者一年
 
 ### kdatacenter[韩国]强烈推荐
 ```

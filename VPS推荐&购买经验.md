@@ -36,7 +36,7 @@ https://www.linode.com/?r=2d4a0088743a2a06e3405514d486b8966c51a439
 6.支持paypal
 7.先关闭代理、SS、VPN再打开网站，注册的时候一定要选中国大陆，手机号要选 +86（不然会被判欺诈，小心封号） 然后随便填，省市区地址信息随便填。
 8.日本IP段都可以netflix，全部有IPv6
-9.因为走的IIJ，所以移动和联通都超级好，电信白天也好，就是晚上延迟会较高（日本除了CN2 和 softbank基本都这样）
+9.电信移动走香港PCCW、联通走的IIJ（以前全部是IIJ，电信晚上会炸）
 10.推荐节点用，面板也行，不过2G内存的有点贵
 11.我目前玩过的所有VPS中，客服最牛逼的，只要你英文不太low，在线客服可以帮你搞定所有的事情，根本不需要发任何工单
 ```
@@ -47,6 +47,16 @@ https://www.linode.com/?r=2d4a0088743a2a06e3405514d486b8966c51a439
 https://www.onevps.com/portal/aff.php?aff=32
 
 --------------
+
+### digital-vm[日本]强烈推荐
+```
+1.跟onevps差不多（感觉是onevps的马甲商家价格一致）
+2.去程电信走香港和移动PCCW，联通IIJ
+3.回城电信竟然走softbank，软银线路啊
+4.说是不限流量，实际登陆面板后看到是限制5T
+5.在线客服跟ONEVPS一样牛逼
+```
+https://digital-vm.com/portal/aff.php?aff=1
 
 ### kdatacenter[韩国]强烈推荐
 ```

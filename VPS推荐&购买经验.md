@@ -48,16 +48,6 @@ https://www.onevps.com/portal/aff.php?aff=32
 
 --------------
 
-### digital-vm[日本]强烈推荐
-```
-1.跟onevps差不多（感觉是onevps的马甲商家价格一致）
-2.去程电信走香港和移动PCCW，联通IIJ
-3.回城电信竟然走bbtec，软银线路啊
-4.说是不限流量，实际登陆面板后看到是限制5T
-5.在线客服跟ONEVPS一样牛逼
-```
-https://digital-vm.com/portal/aff.php?aff=1
-- 首月6折折扣码：`VMNEW` 
 
 ### kdatacenter[韩国]强烈推荐
 ```

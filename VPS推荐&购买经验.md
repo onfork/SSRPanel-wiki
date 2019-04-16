@@ -59,6 +59,7 @@ https://www.onevps.com/portal/aff.php?aff=32
 6.晚高峰电信实测延迟 42ms，我拿来打游戏！
 7.适合个人自用或者少数人用，流量少不适合流量型的人用，开网站也合适，这个是我玩过的韩国最好的了，没有之一
 8.基本没有折扣活动，价格贵
+9.实测：In或者Out流量超过115%就会被停机，我是Out 579G就停机，In了490多G，合计1T左右
 ```
 https://www.kdatacenter.com/myportal/?affid=550
 - 新用户9折折扣码：`ETFBZUWZXW8WSM`

@@ -2,7 +2,7 @@
  - 需要掌握基础Linux知识
  - 尽量动手装一遍（一键包可能无法及时跟上我开发进度一起更新）
  - 看一下我推荐的VPS，我踩过的坑绝对比你多的多，能推荐的绝对不会太差，至少适合入门
- - 订阅Telegram订阅频道获取最新消息
+ - 订阅[Telegram](https://t.me/ssrpanel)订阅频道获取最新消息
  - 本WIKI内所有代码都是基于CentOS，不一定适用于Ubuntu、Debian
  - 全套基于CentOS7环境，因为CentOS官方已经不再维护CentOS6
 

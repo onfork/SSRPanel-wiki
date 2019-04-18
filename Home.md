@@ -14,7 +14,7 @@
 - [内部交流群](https://github.com/ssrpanel/SSRPanel/wiki/%E6%88%91%E8%A6%81%E8%BF%9B%E5%B0%8F%E7%BE%A4)
 
 ## 闭源
-- 因精力有限、注意力转移到其他项目上，故从190416起闭源，仅为有实际需求的人服务，具体以后可以参见 www.ssrpanel.com 或 demo.ssrpanel.com 获取项目最新消息
+- 因精力有限、注意力转移到其他项目上，故从19-04-16起闭源，仅为有实际需求的人服务，具体以后可以参见 www.ssrpanel.com 或 demo.ssrpanel.com 获取项目最新消息
 
 ## 演示
 账号：admin 密码：123456

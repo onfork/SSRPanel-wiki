@@ -48,6 +48,19 @@ https://www.onevps.com/portal/aff.php?aff=32
 
 --------------
 
+### digital-vm[日本]（推荐，ONEVPS日本机房替代品）
+```
+1.线路了还行，跟旧版的ONEVPS一样，也是IIJ线路（ONEVPS日本现在除了联通都绕道香港PCCW了）
+2.目前看来态度还行的，客服响应速度也还行
+3.价格跟ONEVPS持平，面板里显示流量是5T/月
+4.10Gbps口子，电信回程有一跳是走bbtec
+5.只推荐买日本机房的，有货就快抢，ONEVPS日本卖光了，这家可以顶上，有些IP无法看netflix有些可以，看运气
+```
+- 8折优惠码：`ssrpanel` （半年付/年付）
+https://digital-vm.com/portal/aff.php?aff=1
+
+
+--------------
 
 ### kdatacenter[韩国]强烈推荐
 ```
@@ -110,7 +123,6 @@ https://m.do.co/c/a6f2d0fb027e
 - [RFCHOST](https://my.rfchost.com/aff.php?aff=583) 俄罗斯伯力、美国GIA、香港，他家卖的都可以买，只是经常没货且略贵，但是非常的稳定
 - [Vultr](https://www.vultr.com/?ref=7031862)  推荐硅谷、洛杉矶、加拿大 , [点这里，充25美金送25美金,充50美金送50美金](https://www.vultr.com/?ref=7946582-4F)
 - [anynode](https://billing.anynode.net/aff.php?aff=535) 512M内存以下爱的经常炸鸡，CN2可以入手
-- [digital-vm](https://digital-vm.com/portal/aff.php?aff=1) 线路了还行，怀疑是马甲，价格与ONEVPS一样，但是没有促销码所以没有优势，而且流量只有ONEVPS的一半，不推荐
 - 阿里云国际 注意，是国际不是大陆区，阿里云国际香港站、日本站都可以，香港站最便宜月付9美金（1G内存、1T流量、30M口），好处是全程CN2，晚高峰都可以打游戏，购买条件高，需要香港Paypal、香港手机号，具体教程在内部群里；日本站条件严苛，全部都得日本当地实名认证，基本搞不定。
 - ConoHa 推荐机房：日本（IIJ）、新加坡（ping 50-90ms），不限流量
 - hostodo 512M内存以下爱的经常炸鸡、CN2可以入手，其他不推荐，总体不推荐

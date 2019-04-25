@@ -21,6 +21,7 @@
 
 ## DDNS脚本
 - [namesilo](https://github.com/ssrpanel/ddns)
+- [aliyun](https://blog.ilemonrain.com/linux/aliddns-v2.html)
 
 ## 疑问
 如果不会正确食用，请先谷歌一下，再不行进小群交流

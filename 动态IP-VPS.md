@@ -7,5 +7,5 @@
 https://github.com/ssrpanel/SSRPanel/wiki/NAT-VPS%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B
 
 ## QOS
-- 台湾HINET 晚上也有QOS，需要使用混淆绕过QOS
+- 目前已知有强烈QOS的线路：台湾HINET、香港HGC 需要使用混淆绕过QOS
 - 香港HKBN 还没试过

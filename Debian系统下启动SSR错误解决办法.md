@@ -34,3 +34,6 @@ python_ver=$(ls /usr/bin|grep -e "^python[23]\.[1-9]\+$"|tail -1)
 
 python_ver=$(ls /usr/bin|grep -e "^python[2]\.[1-9]\+$"|tail -1)
 ```
+
+#### 参考
+https://github.com/shadowsocksrr/shadowsocksr/issues/27
